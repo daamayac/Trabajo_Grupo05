@@ -47,7 +47,7 @@ public class E19ActionTabsActivity extends ActionBarActivity {
                 return 0;
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
 

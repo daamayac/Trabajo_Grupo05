@@ -56,18 +56,57 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
+
         <activity
-            android:name=".ejercicios.c2.E19ActionTabsActivity"
-            android:label="@string/title_activity_e19_action_tabs_actibity"
-            android:parentActivityName=".menus.MenuCapitulos"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".ejercicios.c2.E17SupportActivity"
+            android:label="@string/title_activity_e17_actionbar"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
 
 
+        <activity
+            android:name=".ejercicios.c2.E17ToolbarActivity"
+            android:label="@string/title_activity_e17_toolbar"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c2.E18FragmentPagerActivity"
+            android:label="@string/title_activity_e18_fagment_pager"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c2.E18PagerActivity"
+            android:label="@string/title_activity_e18_pager"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+        <activity
+            android:name=".ejercicios.c2.E19ActionTabsActivity"
+            android:label="@string/title_activity_e19_action_tabs"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
         <activity
             android:name=".menus.C3"
             android:label="@string/title_activity_c3"

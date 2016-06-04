@@ -13,12 +13,16 @@ import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.MainActivity;
 import ec.edu.uce.trabajo_grupo05.R;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17SupportActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17ToolbarActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18FragmentPagerActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18PagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E19ActionTabsActivity;
 
 public class C2 extends AppCompatActivity {
     String[] ejer = {"Ejercicio 1","Ejercicio 2","Ejercicio 3","Ejercicio 4","Ejercicio 5","Ejercicio 6",
             "Ejercicio 7","Ejercicio 8","Ejercicio 9","Ejercicio 10","Ejercicio 11","Ejercicio 12","Ejercicio 12",
-            "Ejercicio 14","Ejercicio 15","Ejercicio 16","Ejercicio 17","Ejercicio 18","Ejercicio 19",};
+            "Ejercicio 14","Ejercicio 15","Ejercicio 16","Ejercicio 17-1","Ejercicio 17-2","Ejercicio 18-1","Ejercicio 18-2","Ejercicio 19",};
     ListView list;
 
 
@@ -41,7 +45,23 @@ public class C2 extends AppCompatActivity {
 
                 Intent intent=null;
                 switch (position){
+                    case 16:
+                        intent= new Intent(getApplicationContext(),E17SupportActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 17:
+                        intent= new Intent(getApplicationContext(),E17ToolbarActivity.class);
+                        startActivity(intent);
+                        break;
                     case 18:
+                        intent= new Intent(getApplicationContext(),E18PagerActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 19:
+                        intent= new Intent(getApplicationContext(),E18FragmentPagerActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 20:
                         intent= new Intent(getApplicationContext(),E19ActionTabsActivity.class);
                         startActivity(intent);
                         break;
@@ -59,6 +79,7 @@ public class C2 extends AppCompatActivity {
         });
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
 }

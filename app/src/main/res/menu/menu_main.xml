@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ec.edu.uce.trabajo_grupo05.MainActivity">
+    <item
+        android:id="@+id/acerda_de"
+        android:orderInCategory="100"
+        android:title="@string/acerda_de"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/capitulos"
+        android:orderInCategory="100"
+        android:title="@string/capitulos"
+        app:showAsAction="never" />
+
+
+</menu>

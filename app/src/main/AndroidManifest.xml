@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ec.edu.uce.trabajo_grupo05">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AcerdaDe"
+            android:label="@string/title_activity_acerda_de"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menus.MenuCapitulos"
+            android:label="@string/title_activity_menu_capitulos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menus.C1"
+            android:label="@string/title_activity_c1"
+            android:parentActivityName=".menus.MenuCapitulos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
+        </activity>
+        <activity
+            android:name=".menus.C2"
+            android:label="@string/title_activity_c2"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c2.E19ActionTabsActivity"
+            android:label="@string/title_activity_e19_action_tabs_actibity"
+            android:parentActivityName=".menus.MenuCapitulos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
+        </activity>
+
+
+
+        <activity
+            android:name=".menus.C3"
+            android:label="@string/title_activity_c3"
+            android:parentActivityName=".menus.MenuCapitulos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

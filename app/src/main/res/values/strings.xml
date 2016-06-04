@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Trabajo Grupo 5</string>
+    <string name="title_activity_main2">Capítulos</string>
+    <string name="title_activity_menuejercicios">Ejercicios</string>
+    <string name="title_activity_c1_01">1_01</string>
+    <string name="acerda_de">Acerda de:</string>
+    <string name="capitulos">Capítulos</string>
+    <string name="title_activity_acerda_de">Acerda De</string>
+
+
+    <string-array name="names_array">
+        <item>Amaya Cruz David Alexander</item>
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <string-array name="acerca_de_array">
+        <item> Universidad Central del Ecuador</item>
+        <item>Optativa3 - Dispositivos Móviles</item>
+        <item>Profesor: Ing. Luis Felipe Borja</item>
+        <item>Grupo 5</item>
+        <item>Jdk version:    8</item>
+        <item>Android Studio: 2.1.1</item>
+        <item>minSdkVersion:  19</item>
+        <item>targetSdkVersion:   23"</item>
+        <item>compileSdkVersion:  23</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_capitulos">MenuCapitulos</string>
+    <string name="title_activity_c1">C1</string>
+    <string name="title_activity_c2">C2</string>
+    <string name="title_activity_c3">C3</string>
+    <string name="title_activity_c2_19">c2_19</string>
+    <string name="title_activity_e19_action_tabs_actibity">Ejercicio 19 - Tabs</string>
+
+
+
+</resources>

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.MainActivity;
 import ec.edu.uce.trabajo_grupo05.R;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E16DragTouchActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17SupportActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17ToolbarActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18FragmentPagerActivity;
@@ -45,6 +46,10 @@ public class C2 extends AppCompatActivity {
 
                 Intent intent=null;
                 switch (position){
+                    case 15:
+                        intent= new Intent(getApplicationContext(),E16DragTouchActivity.class);
+                        startActivity(intent);
+                        break;
                     case 16:
                         intent= new Intent(getApplicationContext(),E17SupportActivity.class);
                         startActivity(intent);

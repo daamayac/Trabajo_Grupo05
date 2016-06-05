@@ -55,6 +55,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
+        <activity
+            android:name=".ejercicios.c2.E16DragTouchActivity"
+            android:label="@string/title_activity_e16_draganddrop"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
 
 
         <activity
@@ -66,9 +75,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
-
-
-
         <activity
             android:name=".ejercicios.c2.E17ToolbarActivity"
             android:label="@string/title_activity_e17_toolbar"
@@ -82,7 +88,7 @@
             android:name=".ejercicios.c2.E18FragmentPagerActivity"
             android:label="@string/title_activity_e18_fagment_pager"
             android:parentActivityName=".menus.C2"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
@@ -91,7 +97,7 @@
             android:name=".ejercicios.c2.E18PagerActivity"
             android:label="@string/title_activity_e18_pager"
             android:parentActivityName=".menus.C2"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
@@ -116,10 +122,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
         </activity>
-
-
-
-
     </application>
 
 </manifest>

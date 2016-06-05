@@ -8,4 +8,5 @@
     <color name="accentGreen">#d0f8ce</color>
     <color name="tabTextDefault">#99ff</color>
     <color name="tabTextSelected">#fff</color>
+    <color name="textColorWhite">#ffff</color>
 </resources>

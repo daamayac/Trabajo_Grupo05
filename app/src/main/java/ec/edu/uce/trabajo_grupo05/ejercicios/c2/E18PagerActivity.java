@@ -16,6 +16,7 @@ public class E18PagerActivity extends AppCompatActivity {
         ViewPager pager = new ViewPager(this);
         pager.setAdapter(new E18ImagePagerAdapter(this));
         setContentView(pager);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
 

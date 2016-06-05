@@ -20,8 +20,7 @@ public class E18FragmentPagerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c2e18viewpager);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
         //Create the initial data set
         mListItems = new ArrayList<String>();
         mListItems.add("Mom");
@@ -36,6 +35,7 @@ public class E18FragmentPagerActivity extends AppCompatActivity {
         mAdapter = new E18ListPagerAdapter(getSupportFragmentManager(), mListItems);
         
         pager.setAdapter(mAdapter);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
        
     }
     

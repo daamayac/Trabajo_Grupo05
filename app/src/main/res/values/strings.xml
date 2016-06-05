@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Trabajo Grupo 5</string>
+    <string name="app_name">"   Trabajo Grupo 5"</string>
     <string name="title_activity_main2">Capítulos</string>
     <string name="title_activity_menuejercicios">Ejercicios</string>
     <string name="title_activity_c1_01">1_01</string>
@@ -36,13 +36,15 @@
 
 
 
+
     <!-- ################Titulos de ejercicios#################  -->
-    <string name="title_activity_e16_draganddrop">Ejercicio 16 - DragAndDrop</string>
-    <string name="title_activity_e17_actionbar">Ejercicio 17 - ActionBarDrawer</string>
-    <string name="title_activity_e17_toolbar">Ejercicio 17 - Toolbar Drawer</string>
-    <string name="title_activity_e18_fagment_pager">Ejercicio 18 - Fragment ViewPager</string>
-    <string name="title_activity_e18_pager">Ejercicio 18 - ViewPager</string>
-    <string name="title_activity_e19_action_tabs">Ejercicio 19 - Tabs</string>
+    <string name="title_activity_e15_touchintercept">TouchIntercep</string>
+    <string name="title_activity_e16_draganddrop">DragAndDrop</string>
+    <string name="title_activity_e17_actionbar">ActionBarDrawer</string>
+    <string name="title_activity_e17_toolbar">Toolbar Drawer</string>
+    <string name="title_activity_e18_fagment_pager">Fragment ViewPager</string>
+    <string name="title_activity_e18_pager">ViewPager</string>
+    <string name="title_activity_e19_action_tabs">Tabs</string>
 
 
 

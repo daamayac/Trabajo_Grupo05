@@ -55,6 +55,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
+
+        <activity
+            android:name=".ejercicios.c2.E15DisallowActivity"
+            android:label="@string/title_activity_e15_touchintercept"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
         <activity
             android:name=".ejercicios.c2.E16DragTouchActivity"
             android:label="@string/title_activity_e16_draganddrop"

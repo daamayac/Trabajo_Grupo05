@@ -7,4 +7,10 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="header_height">150dp</dimen>
+
+    <dimen name="widgetPadding">8dp</dimen>
+    <dimen name="buttonRadius">8dp</dimen>
+    <dimen name="buttonWidth">96dp</dimen>
+    <dimen name="buttonHeight">48dp</dimen>
+    <dimen name="checkboxWidth">64dp</dimen>
 </resources>

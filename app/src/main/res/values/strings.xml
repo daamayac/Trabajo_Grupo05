@@ -46,6 +46,14 @@
     <string name="title_activity_e18_pager">ViewPager</string>
     <string name="title_activity_e19_action_tabs">Tabs</string>
 
+    <string name="title_activity_e01_Styled_Widgets">Ejercicio 01 - Styled Widgets</string>
+    <string name="title_activity_e01_theme">Ejercicio 01 -Custom Theme</string>
+    <string name="title_activity_c1e02_app_name">Ejercicio 02 -System UI Control</string>
+    <string name="title_activity_c1e03_CustomWidgets">Custom Widget</string>
+    <string name="title_activity_c1e04_AnimateProperty">AnimateProperty</string>
+    <string name="title_activity_c1e042_AnimateViewProperty">AnimateViewProperty</string>
+    <string name="title_activity_c1e043_AnimationsXML">Animations XML</string>
+    <string name="title_activity_c1e05_AnimateLayout">Animations XML</string>
 
 
 

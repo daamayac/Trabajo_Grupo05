@@ -54,5 +54,14 @@
     <style name="AppTheme_c1e3" parent="android:Theme.Holo.Light.DarkActionBar" />
     <style name="AppTheme_c1e32" parent="android:Theme.Holo.Light" />
     <style name="AppTheme_c1e33" parent="android:Theme.Light" />
-
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme1" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
 </resources>

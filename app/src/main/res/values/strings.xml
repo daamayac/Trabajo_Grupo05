@@ -53,7 +53,13 @@
     <string name="title_activity_c1e04_AnimateProperty">AnimateProperty</string>
     <string name="title_activity_c1e042_AnimateViewProperty">AnimateViewProperty</string>
     <string name="title_activity_c1e043_AnimationsXML">Animations XML</string>
-    <string name="title_activity_c1e05_AnimateLayout">Animations XML</string>
+    <string name="title_activity_c1e05_AnimateLayout">Animate LayoutL</string>
+    <string name="title_activity_c1e06_UniversalApp">Universal App</string>
+
+    <string name="title_activity_c1e07_AdapterViewEmpty">AdapterView Empty</string>
+    <string name="title_activity_c1e08_CustomList">Custom List</string>
+    <string name="title_activity_c1e09_ListSections">List Sections</string>
+    <string name="title_activity_c1e10_CompoundControls">Compound Controls</string>
 
 
 

@@ -2,18 +2,14 @@ package ec.edu.uce.trabajo_grupo05.menus;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import ec.edu.uce.trabajo_grupo05.MainActivity;
 import ec.edu.uce.trabajo_grupo05.R;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E01StylesActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E01ThemedActivity;
@@ -22,6 +18,11 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E03MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E04AnimateActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E04MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E05MainActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E06UniversalActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E07EmptyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E09SectionsActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E10MyActivity;
 
 public class C1 extends AppCompatActivity {
 
@@ -75,6 +76,26 @@ public class C1 extends AppCompatActivity {
                         break;
                     case 6:
                         intent= new Intent(getApplicationContext(),E05MainActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 7:
+                        intent= new Intent(getApplicationContext(),E06UniversalActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 8:
+                        intent= new Intent(getApplicationContext(),E07EmptyActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 9:
+                        intent= new Intent(getApplicationContext(),E08MyActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 10:
+                        intent= new Intent(getApplicationContext(),E09SectionsActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 11:
+                        intent= new Intent(getApplicationContext(),E10MyActivity.class);
                         startActivity(intent);
                         break;
                     default:

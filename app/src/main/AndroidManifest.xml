@@ -231,10 +231,55 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
         </activity>
         <activity
-            android:name=".ejercicios.c1.E05MainActivity"
+        android:name=".ejercicios.c1.E05MainActivity"
+        android:label="@string/title_activity_c1e05_AnimateLayout"
+        android:parentActivityName=".menus.C1"
+        android:theme="@style/Theme.AppCompat">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+    </activity>
+        <activity
+            android:name=".ejercicios.c1.E06UniversalActivity"
             android:label="@string/title_activity_c1e05_AnimateLayout"
             android:parentActivityName=".menus.C1"
             android:theme="@style/Theme.AppCompat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E07EmptyActivity"
+            android:label="@string/title_activity_c1e07_AdapterViewEmpty"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E08MyActivity"
+            android:label="@string/title_activity_c1e08_CustomList"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/Theme.AppCompat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E09SectionsActivity"
+            android:label="@string/title_activity_c1e09_ListSections"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/Theme.AppCompat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E10MyActivity"
+            android:label="@string/title_activity_c1e10_CompoundControls"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />

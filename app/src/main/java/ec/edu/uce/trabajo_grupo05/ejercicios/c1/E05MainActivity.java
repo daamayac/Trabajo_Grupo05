@@ -6,6 +6,7 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -13,7 +14,7 @@ import android.widget.LinearLayout.LayoutParams;
 
 import ec.edu.uce.trabajo_grupo05.R;
 
-public class E05MainActivity extends Activity {
+public class E05MainActivity extends AppCompatActivity {
 
     LinearLayout mContainer;
 

@@ -39,6 +39,10 @@
 
     <!-- ################Titulos de ejercicios#################  -->
     <string name="title_activity_e5_contextmenu">Ejercicio2.5-ContextMenu</string>
+    <string name="title_activity_e6_dialogs">Ejercicio2.6-Dialogs Recipes</string>
+    <string name="title_activity_e6_dialogs1">Ejercicio2.6-Dialogs1</string>
+    <string name="title_activity_e7_optionsmenu">Ejercicio2.7-Options Menu</string>
+    <string name="title_activity_e8_customback">Ejercicio2.8-CustomBack</string>
     <string name="title_activity_e15_touchintercept">TouchIntercep</string>
     <string name="title_activity_e16_draganddrop">DragAndDrop</string>
     <string name="title_activity_e17_actionbar">ActionBarDrawer</string>
@@ -76,5 +80,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_delete">Delete</string>
+
+
+
+
 
 </resources>

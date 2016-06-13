@@ -21,6 +21,10 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18FragmentPagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18PagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E19ActionTabsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6CustomItemActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6DialogActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E7OptionsActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E8CustomBack;
 
 public class C2 extends AppCompatActivity {
     String[] ejer = {"Ejercicio 1","Ejercicio 2","Ejercicio 3","Ejercicio 4","Ejercicio 5","Ejercicio 6",
@@ -64,6 +68,18 @@ public class C2 extends AppCompatActivity {
 
                     case 4:
                         intent= new Intent(getApplicationContext(),E5ActionActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 5:
+                        intent= new Intent(getApplicationContext(),E6CustomItemActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 6:
+                        intent= new Intent(getApplicationContext(),E7OptionsActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 7:
+                        intent= new Intent(getApplicationContext(),E8CustomBack.class);
                         startActivity(intent);
                         break;
                     case 14:

@@ -3,12 +3,13 @@ package ec.edu.uce.trabajo_grupo05.ejercicios.c2;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
 import ec.edu.uce.trabajo_grupo05.R;
 
-public class E4ManualRotationActivity extends Activity {
+public class E4ManualRotationActivity extends AppCompatActivity {
 
     //References to view elements
     private EditText mEditText;

@@ -62,10 +62,7 @@
             android:label="@string/title_activity_e1_ActionBar"
             android:parentActivityName=".menus.C2"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
@@ -75,10 +72,7 @@
             android:label="@string/title_activity_e1_ActionBar1"
             android:parentActivityName=".menus.C2"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category  android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
@@ -164,10 +158,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
 
@@ -342,10 +333,7 @@
             android:label="@string/title_activity_c1e02_app_name"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
@@ -366,10 +354,7 @@
             android:label="@string/title_activity_c1e03_CustomWidgets"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
@@ -380,10 +365,7 @@
             android:label="@string/title_activity_c1e04_AnimateProperty"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
@@ -475,10 +457,7 @@
             android:label="@string/title_activity_c1e11_TransitionAnimations"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
@@ -495,10 +474,7 @@
             android:label="@string/title_activity_ej12_TransformScroller"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
@@ -510,10 +486,7 @@
             android:parentActivityName=".ejercicios.c1.E12Main"
             android:hardwareAccelerated="false"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+
         </activity>
 
 
@@ -521,10 +494,7 @@
 
         <activity android:name=".ejercicios.c1.E13SimpleRecyclerActivity"
             android:label="@string/title_activity_ej13_RecyclerView">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
     </application>

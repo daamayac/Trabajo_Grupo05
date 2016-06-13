@@ -11,5 +11,6 @@ public class E01ThemedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c1e1themed);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

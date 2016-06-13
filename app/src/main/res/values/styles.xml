@@ -46,6 +46,7 @@
         <item name="android:button">@null</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/text_checkbox</item>
 
     </style>
 

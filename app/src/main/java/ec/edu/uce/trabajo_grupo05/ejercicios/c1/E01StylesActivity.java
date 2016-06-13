@@ -11,6 +11,6 @@ public class E01StylesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c1e1styled);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

@@ -9,6 +9,7 @@
         android:logo="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -51,6 +52,80 @@
             android:label="@string/title_activity_c2"
             android:parentActivityName=".menus.C2"
             android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c2.E5ActionActivity"
+            android:label="@string/title_activity_e5_contextmenu"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+
+        <activity android:name=".ejercicios.c2.E6CustomItemActivity"
+            android:label="@string/title_activity_e6_dialogs"
+            android:icon="@drawable/ic_launcher"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
+            android:name=".ejercicios.c2.E6DialogActivity"
+            android:label="@string/title_activity_e6_dialogs1"
+            android:icon="@drawable/ic_launcher"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".ejercicios.c2.E7OptionsActivity"
+            android:label="@string/title_activity_e7_optionsmenu"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c2.E9CustomBack"
+            android:label="@string/title_activity_e9_customback"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+        <activity
+            android:name=".ejercicios.c2.E8CustomBack"
+            android:label="@string/title_activity_e8_customback"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/Theme.AppCompat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />

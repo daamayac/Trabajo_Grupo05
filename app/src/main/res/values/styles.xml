@@ -89,4 +89,9 @@
     <style name="NativeFragmentTheme" parent="android:Theme.Holo.Light">
         <item name="android:windowAnimationStyle">@style/FragmentAnimation</item>
     </style>
+
+    <style name="AppThemec2e6" parent="android:Theme.Light" />
+    <style name="AppThemec2e61" parent="android:Theme.Holo.Light"/>
+    <style name="AppThemec2e62" parent="android:Theme.Holo.Light.DarkActionBar" />
+
 </resources>

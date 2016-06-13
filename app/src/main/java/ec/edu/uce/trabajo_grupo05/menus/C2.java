@@ -33,11 +33,12 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E4ManualRotationActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6CustomItemActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6DialogActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E7OptionsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E8MenuAction;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E9CustomBack;
 
 public class C2 extends AppCompatActivity {
-    String[] ejer = {"2.1 Leveraging the Action Bar","2.2 Locking Activity Orientation","2.3 Performing Dynamic Orientation Locking","Ejercicio 4","2.5 Creating Contextual Actions","2.6 Displaying a User Dialog Box",
+    String[] ejer = {"2.1 Leveraging the Action Bar","2.2 Locking Activity Orientation","2.3 Performing Dynamic Orientation Locking","2.4 Manually Handling Rotation","2.5 Creating Contextual Actions","2.6 Displaying a User Dialog Box",
             "2.7 Customizing Menus and Actions","2.8 Customizing  BACK Behavior","2.9 Emulating the HOME Button","2.10 Monitoring TextView Changes","2.11 Customizing Keyboard Actions","2.12 Dismissing the Soft Keyboard","2.13 Handling Complex Touch Events",
             "2.14 Forwarding Touch Events","Ejercicio 15","Ejercicio 16","Ejercicio 17-1","Ejercicio 17-2","Ejercicio 18-1","Ejercicio 18-2","Ejercicio 19",};
     ListView list;
@@ -93,6 +94,8 @@ public class C2 extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 6:
+                        intent= new Intent(getApplicationContext(),E7OptionsActivity.class);
+                        startActivity(intent);
 
                         break;
                     case 7:

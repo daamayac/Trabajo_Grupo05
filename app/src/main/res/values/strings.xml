@@ -39,6 +39,7 @@
 
     <!-- ################Titulos de ejercicios#################  -->
     <string name="title_activity_e1_ActionBar">Ejercicio2.1-ActionBar</string>
+    <string name="title_activity_e1_ActionBar1">Ejercicio2.1-ActionBarRecipes</string>
     <string name="title_activity_e2_ActivityOrientation">Ejercicio2.2-SensorLandscape</string>
     <string name="title_activity_e2_ActivityOrientation1">Ejercicio2.2-Landscape</string>
     <string name="title_activity_e2_ActivityOrientation2">Ejercicio2.2-Portrait</string>
@@ -107,6 +108,11 @@
     <string name="app_namec2e3">Rotation Sample</string>
     <string name="hello">Hello World, MyActivity!</string>
     <string name="app_namec2e8">Key Overrides</string>
+    <string name="app_namec2e7">OptionsMenu</string>
+    <string name="menu_settingsc2e7">Settings</string>
+    <string name="title_activity_options">Options Menu</string>
+
+
 
 
 

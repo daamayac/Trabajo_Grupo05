@@ -62,9 +62,27 @@
             android:label="@string/title_activity_e1_ActionBar"
             android:parentActivityName=".menus.C2"
             android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c2.E1SupportActionActivity"
+            android:label="@string/title_activity_e1_ActionBar1"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category  android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+
         </activity>
 
         <activity
@@ -163,6 +181,16 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
+        <activity
+            android:name=".ejercicios.c2.E7OptionsActivity"
+            android:label="@string/title_activity_e7_optionsmenu"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
 
 
 
@@ -175,14 +203,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
-
-
-
-
-
-
-
-
 
         <activity
             android:name=".ejercicios.c2.E9CustomBack"

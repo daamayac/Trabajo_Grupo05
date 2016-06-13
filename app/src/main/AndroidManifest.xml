@@ -166,6 +166,19 @@
 
 
 
+        <activity
+            android:name=".ejercicios.c2.E8MenuAction"
+            android:label="@string/title_activity_e8_customenu"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+
+
 
 
 

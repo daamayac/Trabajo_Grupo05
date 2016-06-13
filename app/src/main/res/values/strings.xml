@@ -49,7 +49,7 @@
     <string name="title_activity_e6_dialogs">Ejercicio2.6-Dialogs Recipes</string>
     <string name="title_activity_e6_dialogs1">Ejercicio2.6-Dialogs1</string>
     <string name="title_activity_e7_optionsmenu">Ejercicio2.7-Options Menu</string>
-    <string name="title_activity_e8_customback">Ejercicio2.8-CustomBack</string>
+    <string name="title_activity_e8_customenu">Ejercicio2.8-CustomBack</string>
     <string name="title_activity_e9_customback">Ejercicio2.9-CustomBack</string>
     <string name="title_activity_e10_TextWatchers">Ejercicio2.10-TextWatchers</string>
     <string name="title_activity_e10_MyActivity">Ejercicio2.10-TextWatchers</string>
@@ -105,6 +105,8 @@
     <string name="lock_name">Orientation Lock</string>
     <string name="manual_name">Manual Rotation</string>
     <string name="app_namec2e3">Rotation Sample</string>
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="app_namec2e8">Key Overrides</string>
 
 
 

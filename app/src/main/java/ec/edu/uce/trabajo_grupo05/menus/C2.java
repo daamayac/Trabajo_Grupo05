@@ -33,6 +33,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E4ManualRotationActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6CustomItemActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6DialogActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E8MenuAction;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E9CustomBack;
 
 public class C2 extends AppCompatActivity {
@@ -95,6 +96,8 @@ public class C2 extends AppCompatActivity {
 
                         break;
                     case 7:
+                        intent= new Intent(getApplicationContext(),E8MenuAction.class);
+                        startActivity(intent);
 
                         break;
                     case 8:

@@ -111,6 +111,17 @@
         </activity>
 
         <activity
+            android:name=".ejercicios.c2.E9CustomBack"
+            android:label="@string/title_activity_e9_customback"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+        <activity
             android:name=".ejercicios.c2.E8CustomBack"
             android:label="@string/title_activity_e8_customback"
             android:parentActivityName=".menus.C2"

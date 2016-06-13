@@ -43,6 +43,7 @@
     <string name="title_activity_e6_dialogs1">Ejercicio2.6-Dialogs1</string>
     <string name="title_activity_e7_optionsmenu">Ejercicio2.7-Options Menu</string>
     <string name="title_activity_e8_customback">Ejercicio2.8-CustomBack</string>
+    <string name="title_activity_e9_customback">Ejercicio2.9-CustomBack</string>
     <string name="title_activity_e15_touchintercept">TouchIntercep</string>
     <string name="title_activity_e16_draganddrop">DragAndDrop</string>
     <string name="title_activity_e17_actionbar">ActionBarDrawer</string>

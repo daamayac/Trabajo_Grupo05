@@ -1,26 +1,26 @@
 package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.support.v7.app.AppCompatActivity;
 
-public class E02MainActivity  extends AppCompatActivity implements AdapterView.OnItemClickListener  {
+public class E11MyActivity extends AppCompatActivity implements AdapterView.OnItemClickListener  {
 
     private String[] mActivities = new String[] {
-            "** Dark Mode", "** Hide Navigation", "** Fullscreen Mode",
-            "** Immersive Mode", "** Immersive Sticky Mode"};
+            "** Suport Fragment", "** Native Fragment"};
     private ArrayAdapter<String> mAdapter;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         ListView list = new ListView(this);
-        
+
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mActivities);
         list.setAdapter(mAdapter);
         list.setOnItemClickListener(this);
@@ -32,20 +32,12 @@ public class E02MainActivity  extends AppCompatActivity implements AdapterView.O
         Intent i;
         switch (position) {
             case 0:
-                i = new Intent(this, E02DarkActivity.class);
+                i = new Intent(this, E11SupportActivity.class);
                 break;
             case 1:
-                i = new Intent(this, E02HideActivity.class);
+                i = new Intent(this, E11NativeActivity.class);
                 break;
-            case 2:
-                i = new Intent(this, E02FullActivity.class);
-                break;
-            case 3:
-                i = new Intent(this, E02ImmersiveActivity.class);
-                break;
-            case 4:
-                i = new Intent(this, E02ImmersiveStickyActivity.class);
-                break;
+
             default:
                 return;
         }

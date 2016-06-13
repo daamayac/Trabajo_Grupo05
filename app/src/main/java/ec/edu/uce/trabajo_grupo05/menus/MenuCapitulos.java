@@ -17,7 +17,8 @@ import ec.edu.uce.trabajo_grupo05.R;
 public class MenuCapitulos extends AppCompatActivity {
 
 
-    String[] caps = {"Capítulo 1","Capítulo 2","Capítulo 3","Capítulo 4","Capítulo 5","Capítulo 6","Juego Asteroides","Juego Mis Lugares",};
+    String[] caps = {"1. Layouts and Views","2. User Interaction Recipes","3. Communications and\n" +
+            "Networking","Capítulo 4","Capítulo 5","Capítulo 6","Juego Asteroides","Juego Mis Lugares",};
     ListView list;
 
 

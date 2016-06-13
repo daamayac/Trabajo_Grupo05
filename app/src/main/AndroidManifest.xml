@@ -296,6 +296,31 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
         </activity>
 
+
+        <activity
+            android:name=".ejercicios.c1.E11MyActivity"
+            android:label="@string/title_activity_c1e11_TransitionAnimations"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity android:name=".ejercicios.c1.E11SupportActivity"
+            android:parentActivityName=".ejercicios.c1.E11MyActivity"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity android:name=".ejercicios.c1.E11NativeActivity"
+            android:parentActivityName=".ejercicios.c1.E11MyActivity"
+            android:theme="@style/Theme.AppCompat"/>
+
+
+
+
+
     </application>
 
 </manifest>

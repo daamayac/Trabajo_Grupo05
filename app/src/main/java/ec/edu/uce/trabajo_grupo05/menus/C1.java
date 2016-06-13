@@ -23,12 +23,14 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E07EmptyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E09SectionsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E10MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E11MainActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E11MyActivity;
 
 public class C1 extends AppCompatActivity {
 
-    String[] ejer = {"Ejercicio 1-1","Ejercicio 1-2","Ejercicio 2","Ejercicio 3","Ejercicio 4-1","Ejercicio 4-2","Ejercicio 5",
-            "Ejercicio 6","Ejercicio 7","Ejercicio 8","Ejercicio 9","Ejercicio 10"};
-    ListView list;
+    String[] ejer = {"1.1 Styling Common Components 1","1.2 Styling Common Components ","2. Toggling System UI Elements","3. Creating and Displaying Views","4.1 Animating a View ","4.2 Animating a View ","5. Animating Layout Changes",
+            "6. Implementing Situation-Specific Layouts","7. Customizing AdapterView Empty Views","8. Customizing ListView Rows","9. Making ListView Section Headers","10. Creating Compound Controls","11. Customizing Transition Animations","12.Creating View Transformations","13.Making Extensible Collection Views"};
+ListView list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +98,10 @@ public class C1 extends AppCompatActivity {
                         break;
                     case 11:
                         intent= new Intent(getApplicationContext(),E10MyActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 12:
+                        intent= new Intent(getApplicationContext(),E11MyActivity.class);
                         startActivity(intent);
                         break;
                     default:

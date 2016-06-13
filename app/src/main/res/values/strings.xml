@@ -78,6 +78,7 @@
     <string name="title_activity_c1e12_TransformScroller">Transform Scroller</string>
 
     <string name="title_activity_ej12_TransformScroller">Ejercicio 12 -StaticTransforms</string>
+    <string name="title_activity_ej13_RecyclerView">Ejercicio 13 -RecyclerView</string>
 
     <!-- ################Adicionales#################  -->
     <string name="drawer_open">Navigation Drawer Opened</string>

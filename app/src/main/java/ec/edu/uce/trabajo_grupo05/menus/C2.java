@@ -13,6 +13,10 @@ import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.MainActivity;
 import ec.edu.uce.trabajo_grupo05.R;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10Activity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10CurrencyTextWatcher;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E11CustomIME;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E15DisallowActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E16DragTouchActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17SupportActivity;
@@ -20,15 +24,19 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17ToolbarActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18FragmentPagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18PagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E19ActionTabsActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E1SupportActionActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E1SupportToolbarActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E2FragmentPagerActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E2Menu;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E3LockActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E4ManualRotationActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6CustomItemActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E6DialogActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E7OptionsActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E8CustomBack;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E9CustomBack;
 
 public class C2 extends AppCompatActivity {
-    String[] ejer = {"Ejercicio 1","Ejercicio 2","Ejercicio 3","Ejercicio 4","2.5 Creating Contextual Actions","2.6 Displaying a User Dialog Box",
+    String[] ejer = {"2.1 Leveraging the Action Bar","2.2 Locking Activity Orientation","2.3 Performing Dynamic Orientation Locking","Ejercicio 4","2.5 Creating Contextual Actions","2.6 Displaying a User Dialog Box",
             "2.7 Customizing Menus and Actions","2.8 Customizing  BACK Behavior","2.9 Emulating the HOME Button","2.10 Monitoring TextView Changes","2.11 Customizing Keyboard Actions","2.12 Dismissing the Soft Keyboard","2.13 Handling Complex Touch Events",
             "2.14 Forwarding Touch Events","Ejercicio 15","Ejercicio 16","Ejercicio 17-1","Ejercicio 17-2","Ejercicio 18-1","Ejercicio 18-2","Ejercicio 19",};
     ListView list;
@@ -54,15 +62,23 @@ public class C2 extends AppCompatActivity {
                 Intent intent=null;
                 switch (position){
                     case 0:
+                        intent= new Intent(getApplicationContext(),E1SupportActionActivity.class);
+                        startActivity(intent);
 
                         break;
                     case 1:
+                        intent= new Intent(getApplicationContext(),E2Menu.class);
+                        startActivity(intent);
 
                         break;
                     case 2:
+                        intent= new Intent(getApplicationContext(),E3LockActivity.class);
+                        startActivity(intent);
 
                         break;
                     case 3:
+                        intent= new Intent(getApplicationContext(),E4ManualRotationActivity.class);
+                        startActivity(intent);
 
                         break;
 
@@ -72,19 +88,25 @@ public class C2 extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 5:
-                        intent= new Intent(getApplicationContext(),E6CustomItemActivity.class);
+                        intent= new Intent(getApplicationContext(),E6DialogActivity.class);
                         startActivity(intent);
                         break;
                     case 6:
-                        intent= new Intent(getApplicationContext(),E7OptionsActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 7:
-                        intent= new Intent(getApplicationContext(),E8CustomBack.class);
-                        startActivity(intent);
+
                         break;
                     case 8:
                         intent= new Intent(getApplicationContext(),E9CustomBack.class);
+                        startActivity(intent);
+                        break;
+                    case 9:
+                        intent= new Intent(getApplicationContext(),E10Activity.class);
+                        startActivity(intent);
+                        break;
+                    case 10:
+                        intent= new Intent(getApplicationContext(),E11CustomIME.class);
                         startActivity(intent);
                         break;
                     case 14:

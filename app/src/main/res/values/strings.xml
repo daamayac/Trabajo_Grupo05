@@ -68,6 +68,10 @@
     <string name="title_activity_support">Support Fragment Transitions</string>
     <string name="title_activity_native">Native Fragment Transitions</string>
 
+    <string name="title_activity_c1e12_StaticTransform">Static Transform</string>
+    <string name="title_activity_c1e12_TransformScroller">Transform Scroller</string>
+
+    <string name="title_activity_ej12_TransformScroller">Ejercicio 12 -StaticTransforms</string>
 
     <!-- ################Adicionales#################  -->
     <string name="drawer_open">Navigation Drawer Opened</string>

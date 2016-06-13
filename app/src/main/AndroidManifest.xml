@@ -57,6 +57,17 @@
         </activity>
 
         <activity
+            android:name=".ejercicios.c2.E5ActionActivity"
+            android:label="@string/title_activity_e5_contextmenu"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+
+        <activity
             android:name=".ejercicios.c2.E15DisallowActivity"
             android:label="@string/title_activity_e15_touchintercept"
             android:parentActivityName=".menus.C2"

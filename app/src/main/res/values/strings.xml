@@ -38,6 +38,7 @@
 
 
     <!-- ################Titulos de ejercicios#################  -->
+    <string name="title_activity_e5_contextmenu">Ejercicio2.5-ContextMenu</string>
     <string name="title_activity_e15_touchintercept">TouchIntercep</string>
     <string name="title_activity_e16_draganddrop">DragAndDrop</string>
     <string name="title_activity_e17_actionbar">ActionBarDrawer</string>

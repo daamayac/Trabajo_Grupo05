@@ -20,6 +20,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17ToolbarActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18FragmentPagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E18PagerActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E19ActionTabsActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
 
 public class C2 extends AppCompatActivity {
     String[] ejer = {"Ejercicio 1","Ejercicio 2","Ejercicio 3","Ejercicio 4","Ejercicio 5","Ejercicio 6",
@@ -47,6 +48,23 @@ public class C2 extends AppCompatActivity {
 
                 Intent intent=null;
                 switch (position){
+                    case 0:
+
+                        break;
+                    case 1:
+
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+
+                    case 4:
+                        intent= new Intent(getApplicationContext(),E5ActionActivity.class);
+                        startActivity(intent);
+                        break;
                     case 14:
                         intent= new Intent(getApplicationContext(),E15DisallowActivity.class);
                         startActivity(intent);

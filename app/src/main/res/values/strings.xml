@@ -38,12 +38,23 @@
 
 
     <!-- ################Titulos de ejercicios#################  -->
+    <string name="title_activity_e1_ActionBar">Ejercicio2.1-ActionBar</string>
+    <string name="title_activity_e2_ActivityOrientation">Ejercicio2.2-SensorLandscape</string>
+    <string name="title_activity_e2_ActivityOrientation1">Ejercicio2.2-Landscape</string>
+    <string name="title_activity_e2_ActivityOrientation2">Ejercicio2.2-Portrait</string>
+    <string name="title_activity_e2_ActivityOrientation3">Ejercicio2.2-Menu</string>
+    <string name="title_activity_e3_LockActivity">Ejercicio2.3-Dynamic Orientation Locking</string>
+    <string name="title_activity_e4_ManuallyHandlingRotation">Ejercicio2.4-Manually Handling Rotation</string>
     <string name="title_activity_e5_contextmenu">Ejercicio2.5-ContextMenu</string>
     <string name="title_activity_e6_dialogs">Ejercicio2.6-Dialogs Recipes</string>
     <string name="title_activity_e6_dialogs1">Ejercicio2.6-Dialogs1</string>
     <string name="title_activity_e7_optionsmenu">Ejercicio2.7-Options Menu</string>
     <string name="title_activity_e8_customback">Ejercicio2.8-CustomBack</string>
     <string name="title_activity_e9_customback">Ejercicio2.9-CustomBack</string>
+    <string name="title_activity_e10_TextWatchers">Ejercicio2.10-TextWatchers</string>
+    <string name="title_activity_e10_MyActivity">Ejercicio2.10-TextWatchers</string>
+    <string name="title_activity_e10_Activity">Ejercicio2.10-TextWatchers</string>
+    <string name="title_activity_e11_customimw">Ejercicio2.11-CustomIME</string>
     <string name="title_activity_e15_touchintercept">TouchIntercep</string>
     <string name="title_activity_e16_draganddrop">DragAndDrop</string>
     <string name="title_activity_e17_actionbar">ActionBarDrawer</string>
@@ -86,6 +97,14 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_delete">Delete</string>
+    <string name="app_namec2e1">Styles/Themes</string>
+    <string name="label_actionbar">Action Bar</string>
+    <string name="label_toolbar">Toolbar</string>
+    <string name="action_settingsc2e1">Settings</string>
+    <string name="action_send">Send</string>
+    <string name="lock_name">Orientation Lock</string>
+    <string name="manual_name">Manual Rotation</string>
+    <string name="app_namec2e3">Rotation Sample</string>
 
 
 

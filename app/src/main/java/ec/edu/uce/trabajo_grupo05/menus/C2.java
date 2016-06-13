@@ -61,6 +61,7 @@ public class C2 extends AppCompatActivity {
 
                         break;
 
+
                     case 4:
                         intent= new Intent(getApplicationContext(),E5ActionActivity.class);
                         startActivity(intent);

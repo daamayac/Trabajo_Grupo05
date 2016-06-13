@@ -26,6 +26,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E10MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E11MainActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E11MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E12Main;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E13SimpleRecyclerActivity;
 
 public class C1 extends AppCompatActivity {
 
@@ -107,6 +108,10 @@ ListView list;
                         break;
                     case 13:
                         intent= new Intent(getApplicationContext(),E12Main.class);
+                        startActivity(intent);
+                        break;
+                    case 14:
+                        intent= new Intent(getApplicationContext(),E13SimpleRecyclerActivity.class);
                         startActivity(intent);
                         break;
                     default:

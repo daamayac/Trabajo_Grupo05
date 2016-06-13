@@ -2,6 +2,7 @@ package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -9,7 +10,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class E13SimpleRecyclerActivity extends ActionBarActivity implements
+import ec.edu.uce.trabajo_grupo05.R;
+
+public class E13SimpleRecyclerActivity extends AppCompatActivity implements
         E13SimpleItemAdapter.OnItemClickListener {
 
     private RecyclerView mRecyclerView;
@@ -61,7 +64,7 @@ public class E13SimpleRecyclerActivity extends ActionBarActivity implements
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.layout_options, menu);
+        getMenuInflater().inflate(R.menu.c1e13layout_options, menu);
         return true;
     }
 

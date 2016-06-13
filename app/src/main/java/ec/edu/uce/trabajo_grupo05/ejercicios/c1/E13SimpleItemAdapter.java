@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import ec.edu.uce.trabajo_grupo05.R;
+
 public class E13SimpleItemAdapter extends RecyclerView.Adapter<E13SimpleItemAdapter.ItemHolder> {
 
     /*
@@ -41,7 +43,7 @@ public class E13SimpleItemAdapter extends RecyclerView.Adapter<E13SimpleItemAdap
 
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = mLayoutInflater.inflate(R.layout.collection_item, parent, false);
+        View itemView = mLayoutInflater.inflate(R.layout.collection_itemc1e13, parent, false);
 
         return new ItemHolder(itemView, this);
     }

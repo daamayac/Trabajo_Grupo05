@@ -2,7 +2,6 @@ package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -13,7 +12,7 @@ public class E11SupportActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainc1e11);
+        setContentView(R.layout.activity_c1e11);
     }
     
     public void onAddClick(View v) {

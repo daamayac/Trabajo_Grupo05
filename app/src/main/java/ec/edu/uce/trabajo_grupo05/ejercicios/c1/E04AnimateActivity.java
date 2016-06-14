@@ -1,25 +1,26 @@
 package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import ec.edu.uce.trabajo_grupo05.R;
 
-public class E04AnimateActivity extends Activity implements View.OnClickListener {
+public class E04AnimateActivity extends AppCompatActivity implements View.OnClickListener {
 
     private View mViewToAnimate;
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainc1e42);
+        setContentView(R.layout.activity_c1e42);
         
         Button button = (Button)findViewById(R.id.toggleButton);
         button.setOnClickListener(this);
         
         mViewToAnimate = findViewById(R.id.theView);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
     
     @Override

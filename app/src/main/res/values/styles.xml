@@ -22,6 +22,7 @@
 
     </style>
 
+
     <style name="LabelText" parent="android:TextAppearance.Large">
         <item name="android:textStyle">bold</item>
     </style>
@@ -66,7 +67,12 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="AppThemeV14" parent="android:Theme.Holo.Light.DarkActionBar">
 
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="color">@color/colorAccent</item>
+        </style>
     <style name="ActivityTheme" parent="@style/Theme.AppCompat.Light">
         <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
     </style>

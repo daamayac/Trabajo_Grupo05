@@ -1,6 +1,5 @@
 package ec.edu.uce.trabajo_grupo05.ejercicios.c2;
 
-import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -55,7 +54,7 @@ public class E4ManualRotationActivity extends AppCompatActivity {
 
     //Set the content view and obtain view references
     private void loadView() {
-        setContentView(R.layout.activity_manualc2e4);
+        setContentView(R.layout.activity_c2e4);
 
         //We have to reset our view references anytime a new layout is set
         mCheckBox = (CheckBox) findViewById(R.id.override);

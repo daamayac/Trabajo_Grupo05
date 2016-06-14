@@ -43,7 +43,7 @@ public class E13SimpleItemAdapter extends RecyclerView.Adapter<E13SimpleItemAdap
 
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = mLayoutInflater.inflate(R.layout.collection_itemc1e13, parent, false);
+        View itemView = mLayoutInflater.inflate(R.layout.activity_c1e13collection_item, parent, false);
 
         return new ItemHolder(itemView, this);
     }

@@ -10,6 +10,7 @@ public class E03MyActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainc1e3);
+        setContentView(R.layout.activity_c1e3);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

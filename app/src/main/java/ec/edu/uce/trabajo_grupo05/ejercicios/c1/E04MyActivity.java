@@ -11,7 +11,7 @@ import android.widget.ListView;
 public class E04MyActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private String[] mActivities = new String[] {
-            "** FLIPPER ", "** FLIPPER PAUSE", "** FLIPPER XML"};
+            "Flipper", "Flipper Pause", "Flipper XML"};
     private ArrayAdapter<String> mAdapter;
 
     @Override

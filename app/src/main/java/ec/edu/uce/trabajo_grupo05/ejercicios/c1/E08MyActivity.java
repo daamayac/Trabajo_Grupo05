@@ -1,6 +1,5 @@
 package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +21,7 @@ public class E08MyActivity extends AppCompatActivity {
         setContentView(list);
         
         CustomAdapter adapter = new CustomAdapter(this,
-                R.layout.custom_rowc1e8,
+                R.layout.activity_c1e8,
                     R.id.line1,
                     new String[] {"Bill","Tom","Sally","Jenny"});
         list.setAdapter(adapter);
@@ -41,7 +40,7 @@ public class E08MyActivity extends AppCompatActivity {
             View row = convertView;
             //Inflate a new row if one isn't recycled
             if(row == null) {
-                row = LayoutInflater.from(getContext()).inflate(R.layout.custom_rowc1e8, parent, false);
+                row = LayoutInflater.from(getContext()).inflate(R.layout.activity_c1e8, parent, false);
             }
 
             String item = getItem(position);

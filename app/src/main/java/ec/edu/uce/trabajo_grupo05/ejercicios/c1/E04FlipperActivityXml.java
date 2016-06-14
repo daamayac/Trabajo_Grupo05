@@ -4,16 +4,16 @@ import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
-import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
 import ec.edu.uce.trabajo_grupo05.R;
 
-public class E04FlipperActivityXml extends Activity {
+public class E04FlipperActivityXml extends AppCompatActivity {
 
     private boolean mIsHeads;
     private AnimatorSet mFlipper;
@@ -23,7 +23,7 @@ public class E04FlipperActivityXml extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainc1e43);
+        setContentView(R.layout.activity_c1e43);
 
         mHeadsImage = BitmapFactory.decodeResource(getResources(), R.drawable.heads);
         mTailsImage = BitmapFactory.decodeResource(getResources(), R.drawable.tails);
@@ -49,6 +49,7 @@ public class E04FlipperActivityXml extends Activity {
                 }
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     @Override

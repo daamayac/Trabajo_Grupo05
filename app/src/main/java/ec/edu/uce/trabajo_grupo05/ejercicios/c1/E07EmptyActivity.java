@@ -1,5 +1,4 @@
 package ec.edu.uce.trabajo_grupo05.ejercicios.c1;
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
@@ -8,12 +7,12 @@ import android.widget.TextView;
 import ec.edu.uce.trabajo_grupo05.R;
 
 
-public class E07EmptyActivity extends Activity {
+public class E07EmptyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_emptyc1e7);
+        setContentView(R.layout.activity_c1e7);
         
         ListView list = (ListView)findViewById(R.id.mylist);
         TextView empty = (TextView)findViewById(R.id.myempty);
@@ -25,6 +24,7 @@ public class E07EmptyActivity extends Activity {
         list.setEmptyView(empty);
 
         //Continue adding adapters and data to the list
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
 }

@@ -30,7 +30,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E13SimpleRecyclerActivity;
 
 public class C1 extends AppCompatActivity {
 
-    String[] ejer = {"1.1 Styling Common Components 1","1.2 Styling Common Components ","2. Toggling System UI Elements","3. Creating and Displaying Views","4.1 Animating a View ","4.2 Animating a View ","5. Animating Layout Changes",
+    String[] ejer = {"1.1 Styling Common Components","1.2 Styling Common Components ","2. Toggling System UI Elements","3. Creating and Displaying Views","4.1 Animating a View ","4.2 Animating a View ","5. Animating Layout Changes",
             "6. Implementing Situation-Specific Layouts","7. Customizing AdapterView Empty Views","8. Customizing ListView Rows","9. Making ListView Section Headers","10. Creating Compound Controls","11. Customizing Transition Animations","12.Creating View Transformations","13.Making Extensible Collection Views"};
 ListView list;
 

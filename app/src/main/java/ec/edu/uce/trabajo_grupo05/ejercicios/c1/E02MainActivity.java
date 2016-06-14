@@ -11,8 +11,8 @@ import android.widget.ListView;
 public class E02MainActivity  extends AppCompatActivity implements AdapterView.OnItemClickListener  {
 
     private String[] mActivities = new String[] {
-            "** Dark Mode", "** Hide Navigation", "** Fullscreen Mode",
-            "** Immersive Mode", "** Immersive Sticky Mode"};
+            "Dark Mode", "Hide Navigation", "Fullscreen Mode",
+            "Immersive Mode", "Immersive Sticky Mode"};
     private ArrayAdapter<String> mAdapter;
     
     @Override

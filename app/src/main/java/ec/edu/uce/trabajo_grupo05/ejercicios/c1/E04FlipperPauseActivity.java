@@ -25,7 +25,7 @@ public class E04FlipperPauseActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_c1e41);
+        setContentView(R.layout.activity_c1e41);
 
         mHeadsImage = BitmapFactory.decodeResource(getResources(), R.drawable.heads);
         mTailsImage = BitmapFactory.decodeResource(getResources(), R.drawable.tails);
@@ -49,6 +49,7 @@ public class E04FlipperPauseActivity extends AppCompatActivity {
                 }
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     @Override

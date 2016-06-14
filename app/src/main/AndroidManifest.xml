@@ -38,6 +38,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.MainActivity" />
         </activity>
+
+
+        <!--CAPITULO 1-->
         <activity
             android:name=".menus.C1"
             android:label="@string/title_activity_c1"
@@ -47,6 +50,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
         </activity>
+
+
+        <!--CAPITULO 1-->
         <activity
             android:name=".menus.C2"
             android:label="@string/title_activity_c2"
@@ -57,6 +63,206 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
+
+
+
+
+        <activity
+            android:name=".ejercicios.c1.E01StylesActivity"
+            android:label="@string/title_activity_e01_Styled_Widgets"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E01ThemedActivity"
+            android:label="@string/title_activity_e01_theme"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c1.E02MainActivity"
+            android:label="@string/title_activity_c1e02_app_name"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity android:name=".ejercicios.c1.E02DarkActivity"
+            android:theme="@style/AppTheme"
+            android:label="Dark Mode"/>
+        <activity android:name=".ejercicios.c1.E02FullActivity"
+            android:theme="@style/AppTheme"
+            android:label="Fullscreen Mode"      />
+        <activity android:name=".ejercicios.c1.E02HideActivity"
+            android:theme="@style/AppTheme"
+            android:label= "Hide Navigation"       />
+        <activity android:name=".ejercicios.c1.E02ImmersiveActivity"
+            android:theme="@style/AppTheme"
+            android:label="Immersive Mode"   />
+        <activity android:name=".ejercicios.c1.E02ImmersiveStickyActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Immersive Sticky Mode"/>
+
+        <activity
+            android:name=".ejercicios.c1.E03MyActivity"
+            android:label="@string/title_activity_c1e03_CustomWidgets"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c1.E04MyActivity"
+            android:label="@string/title_activity_c1e04_AnimateProperty"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c1.E04FlipperActivity"
+            android:parentActivityName=".ejercicios.c1.E04MyActivity"
+            android:theme="@style/AppTheme"
+            android:label="Flipper">
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E04FlipperPauseActivity"
+            android:parentActivityName=".ejercicios.c1.E04MyActivity"
+            android:theme="@style/AppTheme"
+            android:label="Flipper Pause">
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E04FlipperActivityXml"
+            android:parentActivityName=".ejercicios.c1.E04MyActivity"
+            android:theme="@style/AppTheme"
+            android:label="Flipper XML">
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c1.E04AnimateActivity"
+            android:label="@string/title_activity_c1e042_AnimateViewProperty"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E05MainActivity"
+            android:label="@string/title_activity_c1e05_AnimateLayout"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E06UniversalActivity"
+            android:label="@string/title_activity_c1e05_AnimateLayout"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E07EmptyActivity"
+            android:label="@string/title_activity_c1e07_AdapterViewEmpty"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E08MyActivity"
+            android:label="@string/title_activity_c1e08_CustomList"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E09SectionsActivity"
+            android:label="@string/title_activity_c1e09_ListSections"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c1.E10MyActivity"
+            android:label="@string/title_activity_c1e10_CompoundControls"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+
+
+        <activity
+            android:name=".ejercicios.c1.E11MyActivity"
+            android:label="@string/title_activity_c1e11_TransitionAnimations"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity android:name=".ejercicios.c1.E11SupportActivity"
+            android:parentActivityName=".ejercicios.c1.E11MyActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ejercicios.c1.E11NativeActivity"
+            android:parentActivityName=".ejercicios.c1.E11MyActivity"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".ejercicios.c1.E12Main"
+            android:label="@string/title_activity_ej12_TransformScroller"
+            android:parentActivityName=".menus.C1"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
+        </activity>
+        <activity android:name=".ejercicios.c1.E12MainActivity"
+            android:parentActivityName=".ejercicios.c1.E12Main"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".ejercicios.c1.E12ScrollActivity"
+            android:parentActivityName=".ejercicios.c1.E12Main"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ejercicios.c1.E13SimpleRecyclerActivity"
+            android:label="@string/title_activity_ej13_RecyclerView">
+
+        </activity>
+
+
+        <!--CAPITULO 2-->
         <activity
             android:name=".ejercicios.c2.E1SupportToolbarActivity"
             android:label="@string/title_activity_e1_ActionBar"
@@ -309,193 +515,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
         </activity>
-        <activity
-            android:name=".ejercicios.c1.E01StylesActivity"
-            android:label="@string/title_activity_e01_Styled_Widgets"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E01ThemedActivity"
-            android:label="@string/title_activity_e01_theme"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
 
-        <activity
-            android:name=".ejercicios.c1.E02MainActivity"
-            android:label="@string/title_activity_c1e02_app_name"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity android:name=".ejercicios.c1.E02DarkActivity"
-            android:theme="@style/Theme.AppCompat"/>
-        <activity android:name=".ejercicios.c1.E02FullActivity"
-            android:theme="@style/Theme.AppCompat"/>
-        <activity android:name=".ejercicios.c1.E02HideActivity"
-            android:theme="@style/Theme.AppCompat"/>
-        <activity android:name=".ejercicios.c1.E02ImmersiveActivity"
-            android:theme="@style/Theme.AppCompat"/>
-        <activity android:name=".ejercicios.c1.E02ImmersiveStickyActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-
-        <activity
-            android:name=".ejercicios.c1.E03MyActivity"
-            android:label="@string/title_activity_c1e03_CustomWidgets"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-
-        <activity
-            android:name=".ejercicios.c1.E04MyActivity"
-            android:label="@string/title_activity_c1e04_AnimateProperty"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-
-        <activity
-            android:name=".ejercicios.c1.E04FlipperActivity"
-            android:parentActivityName=".ejercicios.c1.E04MyActivity"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E04FlipperPauseActivity"
-            android:parentActivityName=".ejercicios.c1.E04MyActivity"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E04FlipperActivityXml"
-            android:parentActivityName=".ejercicios.c1.E04MyActivity"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
-
-        <activity
-            android:name=".ejercicios.c1.E04AnimateActivity"
-            android:label="@string/title_activity_c1e042_AnimateViewProperty"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/Theme.AppCompat">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-        android:name=".ejercicios.c1.E05MainActivity"
-        android:label="@string/title_activity_c1e05_AnimateLayout"
-        android:parentActivityName=".menus.C1"
-        android:theme="@style/Theme.AppCompat">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-    </activity>
-        <activity
-            android:name=".ejercicios.c1.E06UniversalActivity"
-            android:label="@string/title_activity_c1e05_AnimateLayout"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/Theme.AppCompat">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E07EmptyActivity"
-            android:label="@string/title_activity_c1e07_AdapterViewEmpty"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme1">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E08MyActivity"
-            android:label="@string/title_activity_c1e08_CustomList"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/Theme.AppCompat">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E09SectionsActivity"
-            android:label="@string/title_activity_c1e09_ListSections"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/Theme.AppCompat">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity
-            android:name=".ejercicios.c1.E10MyActivity"
-            android:label="@string/title_activity_c1e10_CompoundControls"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-
-
-        <activity
-            android:name=".ejercicios.c1.E11MyActivity"
-            android:label="@string/title_activity_c1e11_TransitionAnimations"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity android:name=".ejercicios.c1.E11SupportActivity"
-            android:parentActivityName=".ejercicios.c1.E11MyActivity"
-            android:theme="@style/Theme.AppCompat"/>
-        <activity android:name=".ejercicios.c1.E11NativeActivity"
-            android:parentActivityName=".ejercicios.c1.E11MyActivity"
-            android:theme="@style/Theme.AppCompat"/>
-
-        <activity
-            android:name=".ejercicios.c1.E12Main"
-            android:label="@string/title_activity_ej12_TransformScroller"
-            android:parentActivityName=".menus.C1"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C1" />
-        </activity>
-        <activity android:name=".ejercicios.c1.E12MainActivity"
-            android:parentActivityName=".ejercicios.c1.E12Main"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".ejercicios.c1.E12ScrollActivity"
-            android:parentActivityName=".ejercicios.c1.E12Main"
-            android:hardwareAccelerated="false"
-            android:theme="@style/AppTheme">
-
-        </activity>
-
-
-
-
-        <activity android:name=".ejercicios.c1.E13SimpleRecyclerActivity"
-            android:label="@string/title_activity_ej13_RecyclerView">
-
-        </activity>
 
     </application>
 

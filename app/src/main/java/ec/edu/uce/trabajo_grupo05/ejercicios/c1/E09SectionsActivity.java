@@ -16,7 +16,7 @@ public class E09SectionsActivity extends ActionBarActivity {
 
         E09SimpleSectionsAdapter<String> adapter = new E09SimpleSectionsAdapter<String>(
                 list, /* Context for resource inflation */
-                R.layout.list_headerc1e9, /* Layout for header views */
+                R.layout.activity_c1e9, /* Layout for header views */
                 android.R.layout.simple_list_item_1 /* Layout for item views */
         ) {
             //Click handler for item taps

@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.animation.LayoutTransition;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -21,7 +20,7 @@ public class E05MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainc1e5);
+        setContentView(R.layout.activity_c1e5);
 
         // Layout Changes Animation
         mContainer = (LinearLayout) findViewById(R.id.verticalContainer);
@@ -32,10 +31,12 @@ public class E05MainActivity extends AppCompatActivity {
         Animator appearAnim = ObjectAnimator.ofFloat(null, "rotationY", 90f, 0f)
                 .setDuration(transition.getDuration(LayoutTransition.APPEARING));
         transition.setAnimator(LayoutTransition.APPEARING, appearAnim);
+        transition.setStartDelay(LayoutTransition.APPEARING, 0);
         // Override the default disappear animation with a flip out
         Animator disappearAnim = ObjectAnimator.ofFloat(null, "rotationX", 0f, 90f)
                 .setDuration(transition.getDuration(LayoutTransition.DISAPPEARING));
         transition.setAnimator(LayoutTransition.DISAPPEARING, disappearAnim);
+        transition.setStartDelay(LayoutTransition.DISAPPEARING, 0);
 
         // Override the default change disappear animation with a more animated slide
         // We are animating several properties at once, so we create an animation out
@@ -48,6 +49,7 @@ public class E05MainActivity extends AppCompatActivity {
                     this, pvhSlide, pvhScaleY, pvhScaleX)
                 .setDuration(transition.getDuration(LayoutTransition.CHANGE_DISAPPEARING));
         transition.setAnimator(LayoutTransition.CHANGE_DISAPPEARING, changingAppearingAnim);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     public void onAddClick(View v) {

@@ -64,7 +64,7 @@ public class C3 extends AppCompatActivity {
 
                         break;
                     case 6:
-
+                        intent = new Intent(getApplicationContext(), E083MyActivity.class);
                         break;
                     case 7:
 

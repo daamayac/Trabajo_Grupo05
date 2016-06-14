@@ -628,7 +628,7 @@
 
         <activity
             android:name=".ejercicios.c3.E083MyActivity"
-            android:label="title_activity_c3e8_XmlPull"
+            android:label="@string/title_activity_c3e8_XmlPull"
             android:parentActivityName=".menus.C3"
             android:theme="@style/AppTheme">
 

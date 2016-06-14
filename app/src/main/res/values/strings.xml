@@ -56,6 +56,7 @@
     <string name="title_activity_e10_MyActivity">TextWatchers</string>
     <string name="title_activity_e10_Activity">TextWatchers</string>
     <string name="title_activity_e11_customimw">CustomIME</string>
+    <string name="title_activity_e13_customtouch">CustomTouch</string>
     <string name="title_activity_e15_touchintercept">TouchIntercep</string>
     <string name="title_activity_e16_draganddrop">DragAndDrop</string>
     <string name="title_activity_e17_actionbar">ActionBarDrawer</string>

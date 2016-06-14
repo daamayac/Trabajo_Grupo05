@@ -17,6 +17,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10Activity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10CurrencyTextWatcher;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E11CustomIME;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E13PanScrollActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E15DisallowActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E16DragTouchActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17SupportActivity;
@@ -113,6 +114,10 @@ public class C2 extends AppCompatActivity {
                         break;
                     case 10:
                         intent= new Intent(getApplicationContext(),E11CustomIME.class);
+                        startActivity(intent);
+                        break;
+                    case 12:
+                        intent= new Intent(getApplicationContext(),E13PanScrollActivity.class);
                         startActivity(intent);
                         break;
                     case 14:

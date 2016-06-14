@@ -435,7 +435,15 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
-
+        <activity
+            android:name="ec.edu.uce.trabajo_grupo05.ejercicios.c2.E13PanScrollActivity"
+            android:label="@string/title_activity_e13_customtouch"
+            android:parentActivityName="ec.edu.uce.trabajo_grupo05.menus.C2"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
 
         <activity
             android:name=".ejercicios.c2.E15DisallowActivity"

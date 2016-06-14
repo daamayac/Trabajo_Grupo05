@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">"   Trabajo Grupo 5"</string>
     <string name="title_activity_main2">Capítulos</string>
+    <string name="title_activity_main3">Capítulos</string>
     <string name="title_activity_menuejercicios">Ejercicios</string>
     <string name="title_activity_c1_01">1_01</string>
     <string name="acerda_de">Acerda de:</string>
@@ -12,7 +13,7 @@
         <item>Amaya Cruz David Alexander</item>
         <item>Bastidas Aslalema Dayana Carolina</item>
         <item>Centeno Alomoto Mayra Gabriela</item>
-        <item>item3</item>
+        <item>Guachan Martínez Marcia Elizabeth</item>
     </string-array>
 
     <string-array name="acerca_de_array">
@@ -87,6 +88,15 @@
     <string name="title_activity_main">Activity Transitions</string>
     <string name="title_activity_support">Support Fragment Transitions</string>
     <string name="title_activity_native">Native Fragment Transitions</string>
+
+
+    <string name="title_activity_c2_1_DisplayingWebInformation">DisplayingWebInformation</string>
+    <string name="title_activity_c3_2_WebViewEvents">WebViewEvents</string>
+    <string name="title_activity_c3_5_DownloadActivity">DownloadActivity</string>
+    <string name="title_activity_c3_13_BeamActivity">BeamActivity</string>
+    <string name="title_activity_c3_13_NfcActivity">NfcActivity</string>
+    <string name="title_activity_c3_13_NfcActivity1">MenuNFC</string>
+
 
     <string name="title_activity_c1e12_StaticTransform">Static Transform</string>
     <string name="title_activity_c1e12_TransformScroller">Transform Scroller</string>

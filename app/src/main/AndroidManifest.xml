@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ec.edu.uce.trabajo_grupo05">
+    package="ec.edu.uce.trabajo_grupo05"
+   >
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="16" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.NFC" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
@@ -567,7 +569,7 @@
             android:parentActivityName=".menus.C3"
             android:theme="@style/AppTheme">
             <meta-data
-                android:name="android.permission.INTERNET"
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
         </activity>
 
@@ -577,7 +579,7 @@
             android:parentActivityName=".menus.C3"
             android:theme="@style/AppTheme">
             <meta-data
-                android:name="android.permission.INTERNET"
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
         </activity>
 
@@ -632,6 +634,35 @@
         </activity>
 
 
+        <activity
+            android:name=".ejercicios.c3.E6SearchActivity"
+            android:label="@string/title_activity_c3_6_Rest"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c3.E7Json"
+            android:label="@string/title_activity_c3_7_JSON"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c3.E6AuthActivity"
+            android:label="@string/title_activity_c3_13_NfcActivity"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
 
         <activity
             android:name=".ejercicios.c3.E083MyActivity"

@@ -96,6 +96,8 @@
     <string name="title_activity_c3_13_BeamActivity">BeamActivity</string>
     <string name="title_activity_c3_13_NfcActivity">NfcActivity</string>
     <string name="title_activity_c3_13_NfcActivity1">MenuNFC</string>
+    <string name="title_activity_c3_6_Rest">REST</string>
+    <string name="title_activity_c3_7_JSON">JSON</string>
 
 
     <string name="title_activity_c1e12_StaticTransform">Static Transform</string>

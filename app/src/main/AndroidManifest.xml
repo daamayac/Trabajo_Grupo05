@@ -450,6 +450,26 @@
         </activity>
 
         <activity
+            android:name="ec.edu.uce.trabajo_grupo05.ejercicios.c2.E14DelegateActivity"
+            android:label="@string/title_activity_e14_TouchEvents"
+            android:parentActivityName="ec.edu.uce.trabajo_grupo05.menus.C2"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+        <activity
+            android:name="ec.edu.uce.trabajo_grupo05.ejercicios.c2.E14RemoteScrollActivity"
+            android:label="@string/title_activity_e1314TouchEvents"
+            android:parentActivityName="ec.edu.uce.trabajo_grupo05.menus.C2"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
+
+        <activity
             android:name=".ejercicios.c2.E15DisallowActivity"
             android:label="@string/title_activity_e15_touchintercept"
             android:parentActivityName=".menus.C2"
@@ -458,7 +478,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
-
 
         <activity
             android:name=".ejercicios.c2.E16DragTouchActivity"

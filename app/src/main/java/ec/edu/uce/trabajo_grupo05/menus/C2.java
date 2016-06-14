@@ -18,6 +18,8 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10CurrencyTextWatcher;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E10MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E11CustomIME;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E13PanScrollActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E14DelegateActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E14RemoteScrollActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E15DisallowActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E16DragTouchActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E17SupportActivity;
@@ -43,9 +45,10 @@ public class C2 extends AppCompatActivity {
             "4 Manually Handling Rotation", "5 Creating Contextual Actions", "6 Displaying a User Dialog Box",
             "7 Customizing Menus and Actions", "8 Customizing  BACK Behavior", "9 Emulating the HOME Button",
             "10 Monitoring TextView Changes", "11 Customizing Keyboard Actions", "12 Dismissing the Soft Keyboard",
-            "13 Handling Complex Touch Events", "14 Forwarding Touch Events", "15  Making Drag-and-Drop Views ",
-            "16  Making Drag-and-Drop Views ", "17.1 Building a Navigation Drawer", "17.2 Building a Navigation Drawer",
-            "18.1 Swiping Between Views", "18.2 Swiping Between Views", "19 Navigating with Tabs",};
+            "13 Handling Complex Touch Events", "14 Forwarding Touch Events", "13-14  Touch EventsCustom ",
+            "15  Making Drag-and-Drop Views ", "16  Making Drag-and-Drop Views ", "17.1 Building a Navigation Drawer",
+            "17.2 Building a Navigation Drawer", "18.1 Swiping Between Views", "18.2 Swiping Between Views",
+            "19 Navigating with Tabs",};
     ListView list;
 
 
@@ -104,25 +107,33 @@ public class C2 extends AppCompatActivity {
                         intent= new Intent(getApplicationContext(),E13PanScrollActivity.class);
                         startActivity(intent);
                         break;
+                    case 13:
+                        intent= new Intent(getApplicationContext(),E14DelegateActivity.class);
+                        startActivity(intent);
+                        break;
                     case 14:
-                        intent = new Intent(getApplicationContext(), E15DisallowActivity.class);
+                        intent= new Intent(getApplicationContext(),E14RemoteScrollActivity.class);
+                        startActivity(intent);
                         break;
                     case 15:
-                        intent = new Intent(getApplicationContext(), E16DragTouchActivity.class);
+                        intent = new Intent(getApplicationContext(), E15DisallowActivity.class);
                         break;
                     case 16:
-                        intent = new Intent(getApplicationContext(), E17SupportActivity.class);
+                        intent = new Intent(getApplicationContext(), E16DragTouchActivity.class);
                         break;
                     case 17:
-                        intent = new Intent(getApplicationContext(), E17ToolbarActivity.class);
+                        intent = new Intent(getApplicationContext(), E17SupportActivity.class);
                         break;
                     case 18:
-                        intent = new Intent(getApplicationContext(), E18PagerActivity.class);
+                        intent = new Intent(getApplicationContext(), E17ToolbarActivity.class);
                         break;
                     case 19:
-                        intent = new Intent(getApplicationContext(), E18FragmentPagerActivity.class);
+                        intent = new Intent(getApplicationContext(), E18PagerActivity.class);
                         break;
                     case 20:
+                        intent = new Intent(getApplicationContext(), E18FragmentPagerActivity.class);
+                        break;
+                    case 21:
                         intent = new Intent(getApplicationContext(), E19ActionTabsActivity.class);
                         break;
                     default:

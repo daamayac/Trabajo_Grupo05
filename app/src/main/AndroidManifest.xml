@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ec.edu.uce.trabajo_grupo05">
-
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -202,7 +205,7 @@
         </activity>
         <activity
             android:name=".ejercicios.c1.E09SectionsActivity"
-            android:label="@string/label_local">
+            android:label="@string/title_activity_c1e09_ListSections"
             android:parentActivityName=".menus.C1"
             android:theme="@style/AppTheme">
             <meta-data
@@ -552,10 +555,70 @@
         </activity>
 
         <activity
+            android:name=".ejercicios.c3.E2DisplayingWebInformation"
+            android:label="@string/title_activity_c2_1_DisplayingWebInformation"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.permission.INTERNET"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c3.E1WebViewEvents"
+            android:label="@string/title_activity_c3_2_WebViewEvents"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.permission.INTERNET"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+
+        <activity
             android:name=".ejercicios.c3.E08JavaScript"
             android:label="@string/title_activity_e3_java_script"
             android:parentActivityName=".menus.C3"
             android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c3.E5DownloadActivity"
+            android:label="@string/title_activity_c3_5_DownloadActivity"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c3.E13Menu"
+            android:label="@string/title_activity_c3_13_NfcActivity1"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c3.E13BeamActivity"
+            android:label="@string/title_activity_c3_13_BeamActivity"
+            android:parentActivityName=".ejercicios.c3.E13Menu"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+        </activity>
+        <activity
+            android:name=".ejercicios.c3.E13NfcActivity"
+            android:label="@string/title_activity_c3_13_NfcActivity"
+            android:parentActivityName=".ejercicios.c3.E13Menu"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />

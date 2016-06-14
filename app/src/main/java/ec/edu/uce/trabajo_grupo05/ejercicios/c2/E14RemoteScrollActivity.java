@@ -17,7 +17,7 @@ public class E14RemoteScrollActivity extends AppCompatActivity implements View.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainc2e14);
+        setContentView(R.layout.mainc2e131);
         
         mTouchText = (TextView) findViewById(R.id.text_touch);
         mScrollView = (HorizontalScrollView) findViewById(R.id.scroll_view);

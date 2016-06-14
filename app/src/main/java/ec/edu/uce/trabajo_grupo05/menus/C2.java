@@ -38,11 +38,14 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E8MenuAction;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E9CustomBack;
 
 public class C2 extends AppCompatActivity {
-    String[] ejer = {"2.1 Leveraging the Action Bar","2.2 Locking Activity Orientation","2.3 Performing Dynamic Orientation Locking","2.4 Manually Handling Rotation","2.5 Creating Contextual Actions","2.6 Displaying a User Dialog Box",
-            "2.7 Customizing Menus and Actions","2.8 Customizing  BACK Behavior","2.9 Emulating the HOME Button","2.10 Monitoring TextView Changes","2.11 Customizing Keyboard Actions","2.12 Dismissing the Soft Keyboard","2.13 Handling Complex Touch Events",
-            "2.14 Forwarding Touch Events","Ejercicio 15","Ejercicio 16","Ejercicio 17-1","Ejercicio 17-2","Ejercicio 18-1","Ejercicio 18-2","Ejercicio 19",};
+    String[] ejer = {"1 Leveraging the Action Bar", "2 Locking Activity Orientation", "3 Performing Dynamic Orientation Locking",
+            "4 Manually Handling Rotation", "5 Creating Contextual Actions", "6 Displaying a User Dialog Box",
+            "7 Customizing Menus and Actions", "8 Customizing  BACK Behavior", "9 Emulating the HOME Button",
+            "10 Monitoring TextView Changes", "11 Customizing Keyboard Actions", "12 Dismissing the Soft Keyboard",
+            "13 Handling Complex Touch Events", "14 Forwarding Touch Events", "15  Making Drag-and-Drop Views ",
+            "16  Making Drag-and-Drop Views ", "17.1 Building a Navigation Drawer", "17.2 Building a Navigation Drawer",
+            "18.1 Swiping Between Views", "18.2 Swiping Between Views", "19 Navigating with Tabs",};
     ListView list;
-
 
 
     @Override
@@ -54,104 +57,78 @@ public class C2 extends AppCompatActivity {
         list = (ListView) findViewById(R.id.listCap2);
 
 
-        ArrayAdapter listCapAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,ejer);
+        ArrayAdapter listCapAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, ejer);
         list.setAdapter(listCapAdapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent intent=null;
-                switch (position){
+                Intent intent = null;
+                switch (position) {
                     case 0:
-                        intent= new Intent(getApplicationContext(),E1SupportActionActivity.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E1SupportActionActivity.class);
                         break;
                     case 1:
-                        intent= new Intent(getApplicationContext(),E2Menu.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E2Menu.class);
                         break;
                     case 2:
-                        intent= new Intent(getApplicationContext(),E3LockActivity.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E3LockActivity.class);
                         break;
                     case 3:
-                        intent= new Intent(getApplicationContext(),E4ManualRotationActivity.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E4ManualRotationActivity.class);
                         break;
-
-
                     case 4:
-                        intent= new Intent(getApplicationContext(),E5ActionActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E5ActionActivity.class);
                         break;
                     case 5:
-                        intent= new Intent(getApplicationContext(),E6DialogActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E6DialogActivity.class);
                         break;
                     case 6:
-                        intent= new Intent(getApplicationContext(),E7OptionsActivity.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E7OptionsActivity.class);
                         break;
                     case 7:
-                        intent= new Intent(getApplicationContext(),E8MenuAction.class);
-                        startActivity(intent);
-
+                        intent = new Intent(getApplicationContext(), E8MenuAction.class);
                         break;
                     case 8:
-                        intent= new Intent(getApplicationContext(),E9CustomBack.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E9CustomBack.class);
                         break;
                     case 9:
-                        intent= new Intent(getApplicationContext(),E10Activity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E10Activity.class);
                         break;
                     case 10:
-                        intent= new Intent(getApplicationContext(),E11CustomIME.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E11CustomIME.class);
                         break;
                     case 14:
-                        intent= new Intent(getApplicationContext(),E15DisallowActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E15DisallowActivity.class);
                         break;
                     case 15:
-                        intent= new Intent(getApplicationContext(),E16DragTouchActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E16DragTouchActivity.class);
                         break;
                     case 16:
-                        intent= new Intent(getApplicationContext(),E17SupportActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E17SupportActivity.class);
                         break;
                     case 17:
-                        intent= new Intent(getApplicationContext(),E17ToolbarActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E17ToolbarActivity.class);
                         break;
                     case 18:
-                        intent= new Intent(getApplicationContext(),E18PagerActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E18PagerActivity.class);
                         break;
                     case 19:
-                        intent= new Intent(getApplicationContext(),E18FragmentPagerActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E18FragmentPagerActivity.class);
                         break;
                     case 20:
-                        intent= new Intent(getApplicationContext(),E19ActionTabsActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(getApplicationContext(), E19ActionTabsActivity.class);
                         break;
                     default:
-                        Toast.makeText(getApplicationContext(),"En construcción",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "En construcción", Toast.LENGTH_LONG).show();
                         break;
 
 
                 }
 
-
-                Toast.makeText(getApplicationContext(),parent.getItemAtPosition(position).toString(),Toast.LENGTH_LONG).show();
+                startActivity(intent);
+                Toast.makeText(getApplicationContext(), parent.getItemAtPosition(position).toString(), Toast.LENGTH_LONG).show();
 
             }
         });

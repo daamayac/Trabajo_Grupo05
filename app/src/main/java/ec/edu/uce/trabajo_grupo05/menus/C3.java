@@ -19,10 +19,13 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E5DownloadActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 
 
 public class C3 extends AppCompatActivity {
-    String[] ejer = {"3.1 Displaying Web Information ", "3.2 WebViewEvents","3.3 JavaScript","3.5 Downloading Completely in the Background","3.6 REST","3.7 JSON","3.8  Parsing XML", "3.9-10. Receiving and Sending SMS","3.11. Communicating over Bluetooth",
+    String[] ejer = {"3.1 Displaying Web Information ", "3.2 WebViewEvents","3.3 JavaScript",
+            "3.5 Downloading Completely in the Background","3.6 REST","3.7 JSON","3.8  Parsing XML",
+            "3.9-10. Receiving and Sending SMS","3.11. Communicating over Bluetooth",
             "3.12. Querying Network Reachability","3.13. Transferring Data with NFC","3.14. Connecting over USB"};
 
     ListView list;
@@ -67,7 +70,7 @@ public class C3 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), E083MyActivity.class);
                         break;
                     case 7:
-
+                        intent = new Intent(getApplicationContext(), SmsActivity.class);
                         break;
                     case 8:
 

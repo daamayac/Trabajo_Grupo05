@@ -19,6 +19,9 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E5DownloadActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E6AuthActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E6SearchActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E7Json;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 
@@ -62,9 +65,10 @@ public class C3 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), E5DownloadActivity.class);
                         break;
                     case 4:
-                       // intent = new Intent(getApplicationContext(), E5DownloadActivity.class);
+                        intent = new Intent(getApplicationContext(), E6SearchActivity.class);
                         break;
                     case 5:
+                        intent = new Intent(getApplicationContext(), E7Json.class);
 
                         break;
                     case 6:
@@ -80,6 +84,7 @@ public class C3 extends AppCompatActivity {
 
                         break;
                     case 10:
+                        intent = new Intent(getApplicationContext(), E13Menu.class);
 
                         break;
                     case 11:

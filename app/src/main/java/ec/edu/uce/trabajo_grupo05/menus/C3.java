@@ -19,6 +19,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E5DownloadActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 
 
@@ -73,7 +74,7 @@ public class C3 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), SmsActivity.class);
                         break;
                     case 8:
-
+                        intent = new Intent(getApplicationContext(), ExchangeActivity.class);
                         break;
                     case 9:
 

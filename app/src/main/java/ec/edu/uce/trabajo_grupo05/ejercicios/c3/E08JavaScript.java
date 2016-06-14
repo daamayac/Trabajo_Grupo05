@@ -13,7 +13,7 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 @TargetApi(19)
-public class E3JavaScript extends AppCompatActivity {
+public class E08JavaScript extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,7 +72,7 @@ public class E3JavaScript extends AppCompatActivity {
             edit.commit();
             //If element is valid, raise a Toast
             if(!TextUtils.isEmpty(element)) {
-                Toast.makeText(E3JavaScript.this, element, Toast.LENGTH_SHORT).show();
+                Toast.makeText(E08JavaScript.this, element, Toast.LENGTH_SHORT).show();
             }
         }
     }

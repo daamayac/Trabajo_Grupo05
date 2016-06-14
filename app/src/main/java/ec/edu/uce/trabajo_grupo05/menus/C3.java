@@ -2,8 +2,6 @@ package ec.edu.uce.trabajo_grupo05.menus;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,10 +11,13 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.R;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E08JavaScript;
 
 public class C3 extends AppCompatActivity {
-    String[] ejer = {"1 ", "1.2","3 Java Script"};
+    String[] ejer = {"3.1 Displaying Web Information ", "3.2 WebViewEvents","3.3 JavaScript","3.5 Downloading Completely in the Background","3.6 REST","3.7 JSON","3.8  Parsing XML", "3.9. Receiving SMS","3.10.Sending an SMS Message","3.11. Communicating over Bluetooth",
+    "3.12. Querying Network Reachability","3.13. Transferring Data with NFC","3.14. Connecting over USB"};
     ListView list;
 
     @Override
@@ -43,10 +44,13 @@ public class C3 extends AppCompatActivity {
                         //intent = new Intent(getApplicationContext(), E2Menu.class);
                         break;
                     case 2:
-                        intent = new Intent(getApplicationContext(), E3JavaScript.class);
+                        intent = new Intent(getApplicationContext(), E08JavaScript.class);
                         break;
                     case 3:
                        // intent = new Intent(getApplicationContext(), E4ManualRotationActivity.class);
+                        break;
+                    case 6:
+                         intent = new Intent(getApplicationContext(),E083MyActivity.class);
                         break;
 
                     default:

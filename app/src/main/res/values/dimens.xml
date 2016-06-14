@@ -15,4 +15,8 @@
     <dimen name="checkboxWidth">64dp</dimen>
     <dimen name="inset_margin">8dp</dimen>
     <dimen name="connector_stroke">2dp</dimen>
+
+
+    <dimen name="margen_inferior_titulo">20dp</dimen>
+
 </resources>

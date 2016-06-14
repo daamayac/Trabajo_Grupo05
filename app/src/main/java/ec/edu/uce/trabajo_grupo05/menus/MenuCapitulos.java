@@ -13,6 +13,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.R;
+import ec.edu.uce.trabajo_grupo05.ejercicios.juegoAsteroides.Asteroides;
 
 public class MenuCapitulos extends AppCompatActivity {
 
@@ -52,6 +53,10 @@ public class MenuCapitulos extends AppCompatActivity {
                         break;
                     case 2:
                         intent= new Intent(getApplicationContext(),C3.class);
+                        startActivity(intent);
+                        break;
+                    case 6:
+                        intent= new Intent(getApplicationContext(), Asteroides.class);
                         startActivity(intent);
                         break;
                     default:

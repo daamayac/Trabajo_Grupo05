@@ -137,4 +137,13 @@
 
     <string name="title_activity_c3e9_SMS">SMS</string>
     <string name="title_activity_c3e11_Bluetooth">Bluetooth Communicator</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo_aplicacion">Asteroides</string>
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_configurar">Configurar</string>
+    <string name="btn_acercaDe">Acerca de</string>
+    <string name="btn_salir">Salir</string>
+
 </resources>

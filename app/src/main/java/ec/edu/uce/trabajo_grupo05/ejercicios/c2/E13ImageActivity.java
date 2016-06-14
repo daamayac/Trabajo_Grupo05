@@ -11,7 +11,7 @@ public class E13ImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         E13RotateZoomImageView imageView = new E13RotateZoomImageView(this);
-        imageView.setImageResource(R.drawable.ic_launcher);
+        imageView.setImageResource(R.mipmap.ic_launcher);
         
         setContentView(imageView);
     }

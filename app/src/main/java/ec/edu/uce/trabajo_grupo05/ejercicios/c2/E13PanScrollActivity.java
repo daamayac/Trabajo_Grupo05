@@ -26,7 +26,7 @@ public class E13PanScrollActivity extends AppCompatActivity {
         layout.setOrientation(LinearLayout.VERTICAL);
         for(int i=0; i < 5; i++) {
     		ImageView iv = new ImageButton(this);
-	    	iv.setImageResource(R.drawable.ic_launcher);
+	    	iv.setImageResource(R.mipmap.ic_launcher);
             layout.addView(iv, new LinearLayout.LayoutParams(1000, 500));
         }
 

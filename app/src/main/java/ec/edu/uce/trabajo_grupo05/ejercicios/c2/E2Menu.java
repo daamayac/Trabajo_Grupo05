@@ -15,7 +15,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E04FlipperPauseActivity;
 public class E2Menu extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private String[] mActivities = new String[] {
-            "** SensorPortrait ", "** Behind", "** SensorLandscape"};
+            "SensorPortrait ", "Behind", "SensorLandscape"};
     private ArrayAdapter<String> mAdapter;
 
     @Override

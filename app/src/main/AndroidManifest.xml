@@ -537,6 +537,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
+        <!--CAPITULO 3-->
         <activity
             android:name=".menus.C3"
             android:label="@string/title_activity_c3"
@@ -545,6 +546,16 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ec.edu.uce.trabajo_grupo05.menus.MenuCapitulos" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c3.E3JavaScript"
+            android:label="@string/title_activity_e3_java_script"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
         </activity>
 
 

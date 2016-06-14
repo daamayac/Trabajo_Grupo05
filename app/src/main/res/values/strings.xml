@@ -94,6 +94,11 @@
     <string name="title_activity_ej12_TransformScroller">StaticTransforms</string>
     <string name="title_activity_ej13_RecyclerView">RecyclerView</string>
 
+
+    <string name="title_activity_e3_java_script">Java Script</string>
+
+
+
     <!-- ################Adicionales#################  -->
     <string name="drawer_open">Navigation Drawer Opened</string>
     <string name="drawer_close">Navigation Drawer Closed</string>

@@ -12,7 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 public class E11MyActivity extends AppCompatActivity implements AdapterView.OnItemClickListener  {
 
     private String[] mActivities = new String[] {
-            "** Suport Fragment", "** Native Fragment"};
+            "Suport Fragment", "Native Fragment"};
     private ArrayAdapter<String> mAdapter;
 
     @Override

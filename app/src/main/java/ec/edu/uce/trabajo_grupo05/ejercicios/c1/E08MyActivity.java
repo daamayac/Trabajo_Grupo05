@@ -25,6 +25,7 @@ public class E08MyActivity extends AppCompatActivity {
                     R.id.line1,
                     new String[] {"Bill","Tom","Sally","Jenny"});
         list.setAdapter(adapter);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
     }
 

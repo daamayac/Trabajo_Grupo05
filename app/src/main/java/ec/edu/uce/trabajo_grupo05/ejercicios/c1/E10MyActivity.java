@@ -11,5 +11,6 @@ public class E10MyActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c1e10);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

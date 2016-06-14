@@ -32,5 +32,6 @@ public class E09SectionsActivity extends ActionBarActivity {
 
         list.setAdapter(adapter);
         setContentView(list);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

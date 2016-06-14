@@ -18,6 +18,7 @@ public class E11NativeFragment extends Fragment {
         TextView tv = new TextView(getActivity());
         tv.setText("Fragment");
         tv.setBackgroundColor(Color.BLUE);
+
         return tv;
     }
     

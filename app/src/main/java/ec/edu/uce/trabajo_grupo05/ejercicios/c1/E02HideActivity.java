@@ -11,7 +11,8 @@ public class E02HideActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_c2e2);
+        setContentView(R.layout.activity_c1e2);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
     
     public void onToggleClick(View v) {

@@ -79,7 +79,7 @@
     <string name="title_activity_c1e10_CompoundControls">Compound Controls</string>
 
 
-    <string name="title_activity_c1e11_TransitionAnimations"> Ejercicio 11-TransitionAnimations</string>
+    <string name="title_activity_c1e11_TransitionAnimations">TransitionAnimations</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Activity Transitions</string>
     <string name="title_activity_support">Support Fragment Transitions</string>

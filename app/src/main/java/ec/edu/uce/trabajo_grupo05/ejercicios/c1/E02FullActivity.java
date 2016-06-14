@@ -14,7 +14,8 @@ public class E02FullActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //Request this feature so the ActionBar will hide
         supportRequestWindowFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
-        setContentView(R.layout.activity_main_c2e2);
+        setContentView(R.layout.activity_c1e2);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
     }
     

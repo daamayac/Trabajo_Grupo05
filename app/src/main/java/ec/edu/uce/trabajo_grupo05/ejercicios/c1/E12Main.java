@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class E12Main extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private String[] mActivities = new String[] {
-            "** Static Transform", "** Transform Scroller"};
+            "Static Transform", "Transform Scroller"};
     private ArrayAdapter<String> mAdapter;
 
     @Override

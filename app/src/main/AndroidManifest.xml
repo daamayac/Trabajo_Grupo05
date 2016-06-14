@@ -575,7 +575,7 @@
         </activity>
 
         <activity
-            android:name=".ejercicios.c3.E08JavaScript"
+            android:name=".ejercicios.c3.E3JavaScript"
             android:label="@string/title_activity_e3_java_script"
             android:parentActivityName=".menus.C3"
             android:theme="@style/AppTheme">

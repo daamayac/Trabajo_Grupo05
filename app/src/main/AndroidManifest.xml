@@ -699,6 +699,16 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
 
         </activity>
+        <activity
+            android:name=".ejercicios.c3.Reachability"
+            android:label="@string/title_activity_c3e12_Reachability"
+            android:parentActivityName=".menus.C3"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C3" />
+
+        </activity>
 
 
         <activity

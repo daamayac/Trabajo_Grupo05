@@ -20,6 +20,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E5DownloadActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.Reachability;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 
 
@@ -77,19 +78,14 @@ public class C3 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), ExchangeActivity.class);
                         break;
                     case 9:
-
+                        intent = new Intent(getApplicationContext(), Reachability.class);
                         break;
                     case 10:
-
-                        break;
-                    case 11:
                         intent = new Intent(getApplicationContext(), E13Menu.class);
                         break;
-                    case 12:
-
+                    case 11:
 
                         break;
-
                     default:
                         Toast.makeText(getApplicationContext(), "En construcción", Toast.LENGTH_LONG).show();
                         break;

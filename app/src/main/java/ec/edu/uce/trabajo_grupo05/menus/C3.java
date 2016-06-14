@@ -21,9 +21,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E2DisplayingWebInformation;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E1WebViewEvents;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E5DownloadActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c1.E08MyActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E083MyActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E08JavaScript;
+
 
 public class C3 extends AppCompatActivity {
     String[] ejer = {"3.1 Displaying Web Information ", "3.2 WebViewEvents","3.3 JavaScript","3.5 Downloading Completely in the Background","3.6 REST","3.7 JSON","3.8  Parsing XML", "3.9. Receiving SMS","3.10.Sending an SMS Message","3.11. Communicating over Bluetooth",
@@ -56,7 +54,7 @@ public class C3 extends AppCompatActivity {
                         break;
 
                     case 2:
-                        intent = new Intent(getApplicationContext(), E08JavaScript.class);
+                        intent = new Intent(getApplicationContext(), E3JavaScript.class);
                         break;
                     case 3:
                         intent = new Intent(getApplicationContext(), E5DownloadActivity.class);

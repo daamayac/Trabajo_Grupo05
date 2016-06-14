@@ -25,6 +25,7 @@ public class E02MainActivity  extends AppCompatActivity implements AdapterView.O
         list.setAdapter(mAdapter);
         list.setOnItemClickListener(this);
         setContentView(list);
+
     }
 
     @Override

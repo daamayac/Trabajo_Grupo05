@@ -15,6 +15,7 @@ public class E11NativeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c1e11);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
     
     public void onAddClick(View v) {

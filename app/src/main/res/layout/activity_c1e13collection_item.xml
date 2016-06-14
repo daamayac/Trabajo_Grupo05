@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp"
-    android:background="#CCF">
+    android:background="@color/controlNormalGreen">
     <TextView
         android:id="@+id/text_title"
         android:layout_width="wrap_content"

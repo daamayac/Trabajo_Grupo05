@@ -55,72 +55,71 @@ ListView list;
                 switch (position){
                     case 0:
                         intent= new Intent(getApplicationContext(),E01StylesActivity.class);
-                        startActivity(intent);
+
                         break;
 
                     case 1:
                         intent= new Intent(getApplicationContext(), E01ThemedActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 2:
                         intent= new Intent(getApplicationContext(),E02MainActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 3:
                         intent= new Intent(getApplicationContext(),E03MyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 4:
                         intent= new Intent(getApplicationContext(),E04MyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 5:
                         intent= new Intent(getApplicationContext(),E04AnimateActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 6:
                         intent= new Intent(getApplicationContext(),E05MainActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 7:
                         intent= new Intent(getApplicationContext(),E06UniversalActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 8:
                         intent= new Intent(getApplicationContext(),E07EmptyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 9:
                         intent= new Intent(getApplicationContext(),E08MyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 10:
                         intent= new Intent(getApplicationContext(),E09SectionsActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 11:
                         intent= new Intent(getApplicationContext(),E10MyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 12:
                         intent= new Intent(getApplicationContext(),E11MyActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 13:
                         intent= new Intent(getApplicationContext(),E12Main.class);
-                        startActivity(intent);
+
                         break;
                     case 14:
                         intent= new Intent(getApplicationContext(),E13SimpleRecyclerActivity.class);
-                        startActivity(intent);
+
                         break;
                     default:
                         Toast.makeText(getApplicationContext(),"En construcción",Toast.LENGTH_LONG).show();
                         break;
 
                 }
-
-
+                startActivity(intent);
                 Toast.makeText(getApplicationContext(),parent.getItemAtPosition(position).toString(),Toast.LENGTH_LONG).show();
 
             }

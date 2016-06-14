@@ -39,5 +39,6 @@ public class E12ScrollActivity extends AppCompatActivity {
         //Add the views to the display
         parentView.addView(contentView);
         setContentView(parentView);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 }

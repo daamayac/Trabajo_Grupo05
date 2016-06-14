@@ -2,8 +2,7 @@ package ec.edu.uce.trabajo_grupo05.menus;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,10 +12,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.R;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c2.E5ActionActivity;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E13BeamActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E13Menu;
-import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E13NfcActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E2DisplayingWebInformation;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E1WebViewEvents;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E3JavaScript;

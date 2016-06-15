@@ -25,6 +25,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E7Json;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.Reachability;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c3.USBActivity;
 
 
 public class C3 extends AppCompatActivity {
@@ -82,14 +83,14 @@ public class C3 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), ExchangeActivity.class);
                         break;
                     case 9:
-                        intent = new Intent(getApplicationContext(), Reachability.class);
+                        intent = new Intent(getApplicationContext(), ec.edu.uce.trabajo_grupo05.ejercicios.c3.Reachability.class);
                         break;
                     case 10:
                         intent = new Intent(getApplicationContext(), E13Menu.class);
 
                         break;
                     case 11:
-                        intent = new Intent(getApplicationContext(), E13Menu.class);
+                        intent = new Intent(getApplicationContext(), USBActivity.class);
                         break;
 
 

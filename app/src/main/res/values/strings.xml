@@ -13,7 +13,10 @@
         <item>Amaya Cruz David Alexander</item>
         <item>Bastidas Aslalema Dayana Carolina</item>
         <item>Centeno Alomoto Mayra Gabriela</item>
+        <item>Chalco Pillajo Luis Eduardo</item>
         <item>Guachan Martínez Marcia Elizabeth</item>
+        <item>Noguera Vásconez Diego Frans </item>
+        <item>Suntaxi Puga Stalin Andres </item>
     </string-array>
 
     <string-array name="acerca_de_array">
@@ -141,6 +144,7 @@
     <string name="title_activity_c3e11_Bluetooth">Bluetooth Communicator</string>
 
     <string name="title_activity_c3e12_Reachability">Reachability</string>
+    <string name="title_activity_c3e14_USBActivity">USBActivity</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="titulo_aplicacion">Asteroides</string>

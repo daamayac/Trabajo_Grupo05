@@ -14,12 +14,14 @@ import android.widget.Toast;
 
 import ec.edu.uce.trabajo_grupo05.R;
 import ec.edu.uce.trabajo_grupo05.ejercicios.juegoAsteroides.Asteroides;
+import ec.edu.uce.trabajo_grupo05.ejercicios.misLugares2.ui.principal.PrincipalActivity;
+
 
 public class MenuCapitulos extends AppCompatActivity {
 
 
     String[] caps = {"1. Layouts and Views","2. User Interaction Recipes","3. Communications and\n" +
-            "Networking","Capítulo 4","Capítulo 5","Capítulo 6","Juego Asteroides","Juego Mis Lugares",};
+            "Networking","Capítulo 4","Capítulo 5","Capítulo 6","Juego Asteroides","Mis Lugares 1","Mis Lugares 2"};
     ListView list;
 
 
@@ -59,6 +61,16 @@ public class MenuCapitulos extends AppCompatActivity {
                         intent= new Intent(getApplicationContext(), Asteroides.class);
                         startActivity(intent);
                         break;
+                    case 7:
+                        intent= new Intent(getApplicationContext(), ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.MainActivity.class);
+
+                        startActivity(intent);
+                        break;
+                    case 8:
+                        intent= new Intent(getApplicationContext(), PrincipalActivity.class);
+
+                        startActivity(intent);
+                        break;
                     default:
                         Toast.makeText(getApplicationContext(),"En construcción",Toast.LENGTH_LONG).show();
                         break;
@@ -76,7 +88,7 @@ public class MenuCapitulos extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main1, menu);
         return true;
     }
 

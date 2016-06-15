@@ -153,4 +153,83 @@
     <string name="btn_acercaDe">Acerca de</string>
     <string name="btn_salir">Salir</string>
 
+
+    <string name="action_add">Add</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_filter">Filter</string>
+    <string name="details_delete">Delete</string>
+    <string name="details_edit">Edit</string>
+    <string name="title_activity_add_place">Add new place</string>
+
+    <string name="title_activity_details">Details</string>
+    <string name="add_new_place_button">Add new place</string>
+    <string name="title_activity_edit_place">Edit place</string>
+    <string name="filter_dialog_title">Filter</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="blank"></string>
+    <string name="sort_dialog_title">Sort</string>
+    <string name="button_add_place">Add new place</string>
+    <string name="img_intent_key">img</string>
+    <string name="object_intent_key">object</string>
+    <string name="name_hint">Name</string>
+    <string name="address_hint">Address</string>
+    <string name="comment_hint">Comment</string>
+    <string name="city_hint">City</string>
+    <string name="country_hint">Country</string>
+    <string name="add_img_description">add_img</string>
+    <string name="place_img_description">place_img</string>
+    <string name="rating_from">Rating from:</string>
+    <string name="rating_to">Rating to:</string>
+    <string name="direction_title">Direction:</string>
+    <string name="descending">Descending</string>
+    <string name="ascending">Ascending</string>
+    <string name="place_toast">place</string>
+    <string name="city_toast">city</string>
+    <string name="country_toast">country</string>
+    <string name="reset_button">Reset</string>
+    <string name="title_activity_add_new_place">Add new place</string>
+    <string name="tag_hint">Tag</string>
+    <string name="add_tag">Add tag</string>
+    <string name="details_tags">Tags</string>
+    <string name="rating_toast">rating</string>
+
+
+
+
+    <string name="title_section_lista">Lista</string>
+    <string name="title_section_mapa">Mapa</string>
+
+    <string name="title_activity_principal">Mis lugares</string>
+    <string name="text_no_places">No tienes lugares guardados</string>
+    <string name="text_imagen_lugar">Imagen del lugar</string>
+    <string name="text_nombre_lugar">Nombre del lugar</string>
+    <string name="text_descripcion_lugar">Descripción del lugar</string>
+    <string name="text_map_unavaliable">Mapa no disponible</string>
+    <string name="title_activity_mostrar_lugar">MostrarLugarActivity</string>
+    <string name="title_activity_editar_lugar">EditarLugarActivity</string>
+    <string name="text_button_cancel">Cancelar</string>
+    <string name="text_button_save">Guardar</string>
+    <string name="text_button_create">Crear</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_description">Description</string>
+    <string name="text_photo">Foto del lugar</string>
+    <string name="text_title_image_chooser">Tomar imagen de&#8230;</string>
+    <string name="text_camera">Camara</string>
+    <string name="text_gallery">Galería</string>
+    <string name="text_icon_app_image">Icono de aplicación de imagen</string>
+    <string name="error_text_take_photo">No se pudo realizar la foto</string>
+    <string name="error_text_empty_name">Debe introducir un nombre</string>
+    <string name="text_place_saved">Lugar guardado</string>
+    <string name="error_place_save">No se ha podido guardar el lugar</string>
+    <string name="text_confirm_discard">¿Seguro que quieres borrar este lugar?</string>
+    <string name="title_activity_show_place_photo">ShowPlacePhotoActivity</string>
+    <string name="action_search">Buscar</string>
+    <string name="search_hint">Busca un lugar</string>
+    <string name="error_text_get_photo">No se ha podido obtener la foto</string>
+    <string name="text_no_photo">Sin foto</string>
+    <string name="text_edit">Editar</string>
+    <string name="text_delete">Eliminar</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>

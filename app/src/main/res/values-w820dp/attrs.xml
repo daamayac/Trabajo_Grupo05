@@ -6,4 +6,7 @@
         <attr name="textColorTabDefault" format="color"/>
         <attr name="textColorTabSelected" format="color"/>
     </declare-styleable>
+    <declare-styleable name="ZoomableView">
+        <attr name="image" format="reference" />
+    </declare-styleable>
 </resources>

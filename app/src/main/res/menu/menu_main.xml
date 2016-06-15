@@ -1,17 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ec.edu.uce.trabajo_grupo05.MainActivity">
-    <item
-        android:id="@+id/acerda_de"
-        android:orderInCategory="100"
-        android:title="@string/acerda_de"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/capitulos"
-        android:orderInCategory="100"
-        android:title="@string/capitulos"
-        app:showAsAction="never" />
-
-
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_add" android:title="@string/action_add"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_sort" android:title="@string/action_sort"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_filter" android:title="@string/action_filter"
+        android:orderInCategory="100" app:showAsAction="never" />
 </menu>

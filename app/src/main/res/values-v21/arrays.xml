@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <array name="sort_menu">
+        <item>Added</item>
+        <item>Rating</item>
+        <item>Name</item>
+    </array>
     <string-array name="tiposGraficos">
         <item>vectorial</item>
         <item>bitmap</item>

@@ -47,13 +47,13 @@
         android:text="Integrantes"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView4"
-        android:layout_alignEnd="@+id/btnToAbout" />
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Ing. Infotmática"
+        android:text="Ing. Informática"
         android:id="@+id/textView3"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />

@@ -82,7 +82,7 @@ public interface AddressDAO extends
      * @param orderBy column to sort by
      * @return all rows from table funkcja.
      */
-    java.util.List<Address> getAddressList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<Address> getAddressList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table address
@@ -90,14 +90,14 @@ public interface AddressDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table funkcja.
      */
-    java.util.List<Address> getAddressList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<Address> getAddressList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns all rows from table address matching given where clause
      * @param where where clause
      * @return all rows from table address matching given where clause
      */
-    java.util.List<Address> getAddressList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    java.util.List<Address> getAddressList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Returns all rows from table address matching given where clause
@@ -105,8 +105,8 @@ public interface AddressDAO extends
      * @param orderBy column to sort by
      * @return all rows from table address matching given where clause
      */
-    java.util.List<Address> getAddressList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                            ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<Address> getAddressList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                           ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table address matching given where clause
@@ -115,8 +115,8 @@ public interface AddressDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table address matching given where clause
      */
-    java.util.List<Address> getAddressList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                            ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<Address> getAddressList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                           ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table address based on value of primary key
@@ -137,7 +137,7 @@ public interface AddressDAO extends
      * @param orderBy column to sort by
      * @return list of rows from table address referencing given row from table city
      */
-    java.util.List<Address> getAddressList(City city,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<Address> getAddressList(City city, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns list of rows from table address referencing given row from table city
@@ -146,7 +146,7 @@ public interface AddressDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return list of rows from table address referencing given row from table city
      */
-    java.util.List<Address> getAddressList(City city,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<Address> getAddressList(City city, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table address referenced by given row from table place
@@ -166,7 +166,7 @@ public interface AddressDAO extends
      * @param where where query
      * @return number of rows
      */
-    Long getCount( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    Long getCount(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Inserts row into table address
@@ -214,5 +214,5 @@ public interface AddressDAO extends
      * Deletes all rows from table address matching given where clause
      * @param where where clause
      */
-    void delete( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    void delete(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 }

@@ -124,7 +124,7 @@ public interface PlaceDAO extends
      * @param orderBy column to sort by
      * @return all rows from table funkcja.
      */
-    java.util.List<Place> getPlaceList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<Place> getPlaceList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table place
@@ -132,14 +132,14 @@ public interface PlaceDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table funkcja.
      */
-    java.util.List<Place> getPlaceList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<Place> getPlaceList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns all rows from table place matching given where clause
      * @param where where clause
      * @return all rows from table place matching given where clause
      */
-    java.util.List<Place> getPlaceList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    java.util.List<Place> getPlaceList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Returns all rows from table place matching given where clause
@@ -147,8 +147,8 @@ public interface PlaceDAO extends
      * @param orderBy column to sort by
      * @return all rows from table place matching given where clause
      */
-    java.util.List<Place> getPlaceList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                        ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<Place> getPlaceList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                       ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table place matching given where clause
@@ -157,8 +157,8 @@ public interface PlaceDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table place matching given where clause
      */
-    java.util.List<Place> getPlaceList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                        ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<Place> getPlaceList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                       ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table place based on value of primary key
@@ -191,7 +191,7 @@ public interface PlaceDAO extends
      * @param where where query
      * @return number of rows
      */
-    Long getCount( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    Long getCount(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Inserts row into table place
@@ -239,5 +239,5 @@ public interface PlaceDAO extends
      * Deletes all rows from table place matching given where clause
      * @param where where clause
      */
-    void delete( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    void delete(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 }

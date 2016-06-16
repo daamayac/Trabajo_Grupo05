@@ -74,7 +74,7 @@ public interface PlaceTagDAO extends
      * @param orderBy column to sort by
      * @return all rows from table funkcja.
      */
-    java.util.List<PlaceTag> getPlaceTagList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<PlaceTag> getPlaceTagList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table place_tag
@@ -82,14 +82,14 @@ public interface PlaceTagDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table funkcja.
      */
-    java.util.List<PlaceTag> getPlaceTagList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<PlaceTag> getPlaceTagList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns all rows from table place_tag matching given where clause
      * @param where where clause
      * @return all rows from table place_tag matching given where clause
      */
-    java.util.List<PlaceTag> getPlaceTagList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    java.util.List<PlaceTag> getPlaceTagList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Returns all rows from table place_tag matching given where clause
@@ -97,8 +97,8 @@ public interface PlaceTagDAO extends
      * @param orderBy column to sort by
      * @return all rows from table place_tag matching given where clause
      */
-    java.util.List<PlaceTag> getPlaceTagList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                              ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<PlaceTag> getPlaceTagList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                             ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table place_tag matching given where clause
@@ -107,8 +107,8 @@ public interface PlaceTagDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table place_tag matching given where clause
      */
-    java.util.List<PlaceTag> getPlaceTagList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                              ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<PlaceTag> getPlaceTagList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                             ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table place_tag based on value of primary key
@@ -129,7 +129,7 @@ public interface PlaceTagDAO extends
      * @param orderBy column to sort by
      * @return list of rows from table place_tag referencing given row from table place
      */
-    java.util.List<PlaceTag> getPlaceTagList(Place place,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<PlaceTag> getPlaceTagList(Place place, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns list of rows from table place_tag referencing given row from table place
@@ -138,7 +138,7 @@ public interface PlaceTagDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return list of rows from table place_tag referencing given row from table place
      */
-    java.util.List<PlaceTag> getPlaceTagList(Place place,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<PlaceTag> getPlaceTagList(Place place, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns list of rows from table place_tag referencing given row from table tag
@@ -153,7 +153,7 @@ public interface PlaceTagDAO extends
      * @param orderBy column to sort by
      * @return list of rows from table place_tag referencing given row from table tag
      */
-    java.util.List<PlaceTag> getPlaceTagList(Tag tag,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<PlaceTag> getPlaceTagList(Tag tag, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns list of rows from table place_tag referencing given row from table tag
@@ -162,7 +162,7 @@ public interface PlaceTagDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return list of rows from table place_tag referencing given row from table tag
      */
-    java.util.List<PlaceTag> getPlaceTagList(Tag tag,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<PlaceTag> getPlaceTagList(Tag tag, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns number of all rows in table.
@@ -175,7 +175,7 @@ public interface PlaceTagDAO extends
      * @param where where query
      * @return number of rows
      */
-    Long getCount( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    Long getCount(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Inserts row into table place_tag
@@ -223,5 +223,5 @@ public interface PlaceTagDAO extends
      * Deletes all rows from table place_tag matching given where clause
      * @param where where clause
      */
-    void delete( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    void delete(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 }

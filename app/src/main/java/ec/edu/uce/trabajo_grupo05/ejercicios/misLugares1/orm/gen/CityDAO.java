@@ -82,7 +82,7 @@ public interface CityDAO extends
      * @param orderBy column to sort by
      * @return all rows from table funkcja.
      */
-    java.util.List<City> getCityList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<City> getCityList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table city
@@ -90,14 +90,14 @@ public interface CityDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table funkcja.
      */
-    java.util.List<City> getCityList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<City> getCityList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns all rows from table city matching given where clause
      * @param where where clause
      * @return all rows from table city matching given where clause
      */
-    java.util.List<City> getCityList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    java.util.List<City> getCityList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Returns all rows from table city matching given where clause
@@ -105,8 +105,8 @@ public interface CityDAO extends
      * @param orderBy column to sort by
      * @return all rows from table city matching given where clause
      */
-    java.util.List<City> getCityList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                      ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<City> getCityList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                     ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table city matching given where clause
@@ -115,8 +115,8 @@ public interface CityDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table city matching given where clause
      */
-    java.util.List<City> getCityList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                      ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<City> getCityList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                     ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table city based on value of primary key
@@ -142,7 +142,7 @@ public interface CityDAO extends
      * @param orderBy column to sort by
      * @return list of rows from table city referencing given row from table country
      */
-    java.util.List<City> getCityList(Country country,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<City> getCityList(Country country, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns list of rows from table city referencing given row from table country
@@ -151,7 +151,7 @@ public interface CityDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return list of rows from table city referencing given row from table country
      */
-    java.util.List<City> getCityList(Country country,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<City> getCityList(Country country, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns row from table city referenced by given row from table address
@@ -171,7 +171,7 @@ public interface CityDAO extends
      * @param where where query
      * @return number of rows
      */
-    Long getCount( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    Long getCount(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Inserts row into table city
@@ -219,5 +219,5 @@ public interface CityDAO extends
      * Deletes all rows from table city matching given where clause
      * @param where where clause
      */
-    void delete( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    void delete(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 }

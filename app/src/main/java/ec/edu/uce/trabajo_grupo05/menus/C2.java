@@ -105,15 +105,19 @@ public class C2 extends AppCompatActivity {
                         break;
                     case 12:
                         intent= new Intent(getApplicationContext(),E13PanScrollActivity.class);
-                        startActivity(intent);
+
+                        break;
+                    case 11:
+                        intent= new Intent(getApplicationContext(),MenuCapitulos.class);
+
                         break;
                     case 13:
                         intent= new Intent(getApplicationContext(),E14DelegateActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 14:
                         intent= new Intent(getApplicationContext(),E14RemoteScrollActivity.class);
-                        startActivity(intent);
+
                         break;
                     case 15:
                         intent = new Intent(getApplicationContext(), E15DisallowActivity.class);
@@ -142,7 +146,6 @@ public class C2 extends AppCompatActivity {
 
 
                 }
-
                 startActivity(intent);
                 Toast.makeText(getApplicationContext(), parent.getItemAtPosition(position).toString(), Toast.LENGTH_LONG).show();
 

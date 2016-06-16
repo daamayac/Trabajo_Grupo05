@@ -90,7 +90,7 @@ public interface AddressViewDAO extends
      * @param orderBy column to sort by
      * @return all rows from table funkcja.
      */
-    java.util.List<AddressView> getAddressViewList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<AddressView> getAddressViewList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table address_view
@@ -98,14 +98,14 @@ public interface AddressViewDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table funkcja.
      */
-    java.util.List<AddressView> getAddressViewList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<AddressView> getAddressViewList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns all rows from table address_view matching given where clause
      * @param where where clause
      * @return all rows from table address_view matching given where clause
      */
-    java.util.List<AddressView> getAddressViewList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    java.util.List<AddressView> getAddressViewList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
     /**
      * Returns all rows from table address_view matching given where clause
@@ -113,8 +113,8 @@ public interface AddressViewDAO extends
      * @param orderBy column to sort by
      * @return all rows from table address_view matching given where clause
      */
-    java.util.List<AddressView> getAddressViewList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                                    ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
+    java.util.List<AddressView> getAddressViewList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                                   ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy);
 
     /**
      * Returns all rows from table address_view matching given where clause
@@ -123,8 +123,8 @@ public interface AddressViewDAO extends
      * @param asc true to sort in ascending order, false otherwise
      * @return all rows from table address_view matching given where clause
      */
-    java.util.List<AddressView> getAddressViewList( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
-                                                    ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy,  ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
+    java.util.List<AddressView> getAddressViewList(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where,
+                                                   ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.AExp orderBy, ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.OrderByDirection asc);
 
     /**
      * Returns number of all rows in table.
@@ -137,6 +137,6 @@ public interface AddressViewDAO extends
      * @param where where query
      * @return number of rows
      */
-    Long getCount( ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
+    Long getCount(ec.edu.uce.trabajo_grupo05.ejercicios.misLugares1.orm.runtime.query.LExp where);
 
 }

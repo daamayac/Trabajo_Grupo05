@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-@TargetApi(19)
+
 public class E3JavaScript extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {

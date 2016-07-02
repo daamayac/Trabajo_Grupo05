@@ -23,6 +23,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E7Json;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.USBActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E10Menu;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E9RecognizeActivity;
 
 /**
@@ -81,7 +82,7 @@ public class C4 extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), E9RecognizeActivity.class);
                         break;
                     case 8:
-                        // intent = new Intent(getApplicationContext(), ExchangeActivity.class);
+                         intent = new Intent(getApplicationContext(), E10Menu.class);
                         break;
                     case 9:
                         // intent = new Intent(getApplicationContext(), ec.edu.uce.trabajo_grupo05.ejercicios.c3.Reachability.class);

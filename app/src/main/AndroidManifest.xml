@@ -892,6 +892,36 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
 
         </activity>
+        <activity
+            android:name=".ejercicios.c4.E10PlayerActivity"
+            android:label="@string/title_activity_audio"
+            android:parentActivityName=".ejercicios.c4.E10Menu"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+
+        </activity>
+        <activity
+            android:name=".ejercicios.c4.E10VideoActivity"
+            android:label="@string/title_activity_video"
+            android:parentActivityName=".ejercicios.c4.E10Menu"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+
+        </activity>
+        <activity
+            android:name=".ejercicios.c4.E10Menu"
+            android:label="@string/title_activity_audiovideo"
+            android:parentActivityName=".menus.C4"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+
+        </activity>
 
     </application>
 

@@ -235,5 +235,8 @@
 
     <!-- ################ejer cap 4#################  -->
     <string name="title_activity_SpeechRecognize">SpeechRecognize</string>
+    <string name="title_activity_audio">Audio Playback</string>
+    <string name="title_activity_video">Video Playback</string>
+    <string name="title_activity_audiovideo">Video and Audio Playback</string>
 
 </resources>

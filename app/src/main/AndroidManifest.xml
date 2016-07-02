@@ -91,6 +91,16 @@
                 android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
         </activity>
 
+        <!--CAPITULO 4-->
+        <activity
+            android:name=".menus.C4"
+            android:label="@string/title_activity_c4"
+            android:parentActivityName=".menus.C2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+        </activity>
 
         <activity
             android:name=".ejercicios.c1.E01StylesActivity"

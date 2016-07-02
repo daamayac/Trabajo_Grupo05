@@ -21,7 +21,7 @@ public class MenuCapitulos extends AppCompatActivity {
 
 
     String[] caps = {"1. Layouts and Views", "2. User Interaction Recipes", "3. Communications and\n" +
-            "Networking", "Capítulo 4", "Capítulo 5", "Capítulo 6", "Juego Asteroides", "Mis Lugares 1", "Mis Lugares 2"};
+            "Networking", "4. Interacting with Device Hardware and Media", "Capítulo 5", "Capítulo 6", "Juego Asteroides", "Mis Lugares 1", "Mis Lugares 2"};
     ListView list;
 
 
@@ -55,6 +55,10 @@ public class MenuCapitulos extends AppCompatActivity {
                         break;
                     case 2:
                         intent = new Intent(getApplicationContext(), C3.class);
+                        startActivity(intent);
+                        break;
+                    case 3:
+                        intent = new Intent(getApplicationContext(), C4.class);
                         startActivity(intent);
                         break;
                     case 6:

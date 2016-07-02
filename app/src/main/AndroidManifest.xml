@@ -880,6 +880,19 @@
             android:name=".ejercicios.misLugares2.db.PlacesProvider"
             android:authorities="ec.edu.uce.trabajo_grupo05.ejercicios.misLugares2.provider"
             android:exported="false" />
+
+
+        <activity
+            android:name=".ejercicios.c4.E9RecognizeActivity"
+            android:label="@string/title_activity_SpeechRecognize"
+            android:parentActivityName=".menus.C4"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+
+        </activity>
+
     </application>
 
 </manifest>

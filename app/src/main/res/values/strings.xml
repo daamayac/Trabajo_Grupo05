@@ -233,4 +233,7 @@
     <string name="text_delete">Eliminar</string>
     <string name="title_activity_maps">Map</string>
 
+    <!-- ################ejer cap 4#################  -->
+    <string name="title_activity_SpeechRecognize">SpeechRecognize</string>
+
 </resources>

@@ -23,6 +23,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.E7Json;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.USBActivity;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E9RecognizeActivity;
 
 /**
  * Created by User on 02/07/2016.
@@ -77,7 +78,7 @@ public class C4 extends AppCompatActivity {
                         // intent = new Intent(getApplicationContext(), E083MyActivity.class);
                         break;
                     case 7:
-                        //intent = new Intent(getApplicationContext(), SmsActivity.class);
+                        intent = new Intent(getApplicationContext(), E9RecognizeActivity.class);
                         break;
                     case 8:
                         // intent = new Intent(getApplicationContext(), ExchangeActivity.class);

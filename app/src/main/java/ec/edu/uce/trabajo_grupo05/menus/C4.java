@@ -24,6 +24,7 @@ import ec.edu.uce.trabajo_grupo05.ejercicios.c3.ExchangeActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.SmsActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c3.USBActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E10Menu;
+import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E4MainActivity;
 import ec.edu.uce.trabajo_grupo05.ejercicios.c4.E9RecognizeActivity;
 
 /**
@@ -63,7 +64,7 @@ public class C4 extends AppCompatActivity {
                         break;
 
                     case 2:
-                        //intent = new Intent(getApplicationContext(), E3JavaScript.class);
+                        intent = new Intent(getApplicationContext(), E4MainActivity.class);
                         break;
                     case 3:
                         // intent = new Intent(getApplicationContext(), E5DownloadActivity.class);

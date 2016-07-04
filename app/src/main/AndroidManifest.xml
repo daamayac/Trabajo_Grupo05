@@ -80,27 +80,8 @@
         </activity>
 
 
-        <!--CAPITULO 1-->
-        <activity
-            android:name=".menus.C2"
-            android:label="@string/title_activity_c2"
-            android:parentActivityName=".menus.C2"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
-        </activity>
 
-        <!--CAPITULO 4-->
-        <activity
-            android:name=".menus.C4"
-            android:label="@string/title_activity_c4"
-            android:parentActivityName=".menus.C2"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
-        </activity>
+
 
         <activity
             android:name=".ejercicios.c1.E01StylesActivity"
@@ -304,6 +285,17 @@
 
 
         <!--CAPITULO 2-->
+
+
+        <activity
+            android:name=".menus.C2"
+            android:label="@string/title_activity_c2"
+            android:parentActivityName=".menus.MenuCapitulos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C2" />
+        </activity>
         <activity
             android:name=".ejercicios.c2.E1SupportToolbarActivity"
             android:label="@string/title_activity_e1_ActionBar"
@@ -881,6 +873,31 @@
             android:authorities="ec.edu.uce.trabajo_grupo05.ejercicios.misLugares2.provider"
             android:exported="false" />
 
+
+        <!--CAPITULO 4-->
+
+
+        <activity
+            android:name=".menus.C4"
+            android:label="@string/title_activity_c4"
+            android:parentActivityName=".menus.MenuCapitulos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+        </activity>
+
+        <activity
+            android:name=".ejercicios.c4.E4MainActivity"
+            android:label="Region Monitor"
+            android:parentActivityName=".menus.C4"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ec.edu.uce.trabajo_grupo05.menus.C4" />
+        </activity>
+
+        <service android:name=".ejercicios.c4.E4RegionMonitorService" />
 
         <activity
             android:name=".ejercicios.c4.E9RecognizeActivity"

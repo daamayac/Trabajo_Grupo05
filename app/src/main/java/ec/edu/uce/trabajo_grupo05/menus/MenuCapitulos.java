@@ -61,6 +61,7 @@ public class MenuCapitulos extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), C4.class);
                         startActivity(intent);
                         break;
+
                     case 6:
                         intent = new Intent(getApplicationContext(), Asteroides.class);
                         startActivity(intent);
